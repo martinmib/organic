@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat&display=swap' )  rel ="stylesheet">; /* rerack your brain as to what goes in here */
+
+body { 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lora', serif;
+height: 100%;
+width: 100%;
+
+
+
+}
+
+/* background image */
+
+#background-image {
+    height: 100%;
+    width: 100%;
+    position: relative;
+background: url('../CSS/images/istockphoto-467652436-612x612.jpg');
+
+}
+#white-background {
+background-color: white;
+ height: 100%;
+    width: 100%;
+    position: relative;
+    opacity: .4;
+}
+
+
+
+
+
+
+/* Hero image */
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../CSS/images/AdobeStock_256616171.jpeg') no repeat center center;
+}
+
