@@ -88,5 +88,7 @@ p {
 }
 /* flex containers */
 
-
+#footer { 
+    background-color: green;
+}
 
