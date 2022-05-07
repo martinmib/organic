@@ -1,20 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Source+Serif+Pro:wght@300&family=Tinos:wght@700&display=swap');
 
+/* font families
+font-family: 'Cormorant Infant', serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Tinos', serif; */
 
-
-
-
-
-.body {
-    font-family : 'Oswald', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+header {
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 400;
+}
+body {
+    font-family: 'Source Serif Pro', serif;
+    
    
 }
-.h1 {
-    font-family: 'Oswald', sans-serif;
+h1 {
     
 }
-.h2, h3, h4 { 
-    font-family : 'Lato', sans-serif; 
-}
+h2, h3, h4 { }
+    
 /* flex containers */
 
 
