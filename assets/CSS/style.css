@@ -14,7 +14,7 @@ font-family: 'Tinos', serif; */
 body {
     font-family: 'Source Serif Pro', serif;
     font-weight: 300;
-    background: linear-gradient (45deg/ white, green);
+   /* background: linear-gradient(45deg,green, white); */
    
 }
 h1 h2{
@@ -44,6 +44,31 @@ p {
     height: 150px;
     background: url("https://res.cloudinary.com/martimib/image/upload/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
 }
+#navbar { 
+    font-size: 120%;
+    letter-spacing: 5px; }
+
+#navbar ul li {
+    float: left;
+    list-style-type: none;
+    margin: 25px 25px 25px 50px;
+}
+#navbar a { 
+    text-decoration: none;
+    color: inherit;
+    font-size: 40px;
+}
+#navbar a:hover {
+    background: white;
+    color: green;
+    border-bottom: 1px solid green;
+
+}
+.active {
+    border-bottom:  1px solid green;
+}
+
+
 /* flex containers */
 
 
