@@ -10,26 +10,20 @@ font-family: 'Tinos', serif; */
     padding: 0;
     border: none;
 }
-header{
 
-    height: 120px;
-    max-width: 100%;
-    background: white;
-
-}
 body {
+    display: inline-flex;
     font-family: 'Source Serif Pro', serif;
     font-weight: 300;
-    height: max-content;
-    width: 100%;
-    background: linear-gradient(45deg,green, white) no-repeat, center center;
-   
+    max-width:100%;
+    max-height: 100%;
+    background-color: linear-gradient(45deg,green, white) no-repeat, center center;
 }
 h1 h2{
     font-family: 'Cormorant Infant', serif;
-text-transform: uppercase;
-letter-spacing: 10px;
-color: black;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: black;
     
 }
 
@@ -40,21 +34,26 @@ p {
 #logo {
     float: left;
     font-size: 400%; 
-    font-weight: 1000; 
+    font-weight: 800; 
     color: black;
     border: none;
     margin: 15px 0 15px 20px;
 
 }
+
 #navbar { 
+    float: left;
     font-size: 150%;
+    font-weight: 800;
     letter-spacing: 5px;
-    animation-delay: 3s;
+
 }
 #navbar ul li {
     float: left;
     list-style-type: none;
-    margin: 25px 25px 25px 50px;
+    margin: 150px 25px 25px 75px;
+    justify-content: space-around 20px; 
+   
 }
 #navbar a { 
     text-decoration: none;
@@ -72,16 +71,62 @@ p {
     border-bottom:  1px solid green;
 }
 
+    /* flex containers */
 
-#heroimage {
+    #flex-head { 
+        
+        height: 125px;
+        max-width: 100%;
+        background: white;
+        border: none;
+
+    }
+
+
+section {
+    display: flex;
+    background-color: linear-gradient(45deg,green, white) no-repeat, center center;
+
+}
+#flexbox-container { 
+
     height:350px;
-    width: 100%;
-    background: url("https://res.cloudinary.com/martimib/image/upload/c_scale,h_350,w_1920/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
-/* flex containers */
+    max-width: 100%;
+    background-image: url("https://res.cloudinary.com/martimib/image/upload/c_scale,h_350,w_1920/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
+    border-color: solid 2px green;
+    float: left;
+    display: flex;
 
 }
 
-#footer { 
+#flexbox-container2 {
+    border-color: solid 2px green ;
+
+}
+#flexbox-container3 {
+    border-color: solid 2px green ;
+
+}
+#flexbox-container4 {
+    border-color: solid 2px green ;
+
+
+}
+
+#flexbox-container5 { 
     background-color: green;
+    height: 150px;
+    width: 100%;
+    border-color: solid 2px green ;
 }
+.social { 
+    float: left;
+    color: inherit;
+    height: 50%;
+    width: 20%; 
+    border-radius: 10px 10px 10px 10px;
+    list-style-type: none;
+    
+}
+
 
