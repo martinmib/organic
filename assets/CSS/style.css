@@ -13,9 +13,12 @@ font-family: 'Tinos', serif; */
 
 body { 
     font-family: 'Cormorant Infant', serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: black;
    
+}
+section {
+    display: flex;
 }
     
 
@@ -33,22 +36,24 @@ p {
     color: black;
 }
 
-/* flex container start */
+/* flex container head */
 
 
 .flex-main {
 
     display:flex;
     justify-content: flex-start;
+    width: 100%;
+    height: 800px;
     align-items: left;
-    min-height: 200vh;
+    min-height: 100vh;
     background: linear-gradient(45deg, green,white);
     flex-direction: column;
     
 }
 .flex-head { 
     height: 75px;
-    width: 100%;
+    max-width: 100%;
     background: white;
     border: none;
     margin: none;
@@ -65,15 +70,130 @@ p {
     margin: 5px 0px 5px 15px;
 
 }
-#heroimage {    
+#heroimage1 {    
+    align-items: flex-end;
     background-image: url("https://res.cloudinary.com/martimib/image/upload/c_limit,h_300,o_100,q_auto:best,w_3020/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
-    height: 400px;
+    height: 440px;
     width: 100%;
     border: none;
     text-align: center;
     flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    position: relative;
+}
+
+.navbar div { 
+    font-family: 'Cormorant Infant', serif;
+    text-transform: uppercase;
+    color: black;
+   
+    height: 80pxpx; 
+    width: 100%;
+    float: left;
+    color: black;
+    font-size: 110%;
+    letter-spacing: 4px;
+    justify-content: center;
+
     
 }
+ 
+.flex-item1  {
+
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    justify-content: space-around 20px;
+    
+}
+.flex-item2  {
+
+    float: left;
+    list-style-type: none;
+    margin: 150px 25px 25px 75px;
+    justify-content: space-around 20px;
+    border-color: solid 2px green;
+}
+.flex-item3  {
+
+    float: left;
+    list-style-type: none;
+    margin: 150px 25px 25px 75px;
+    justify-content: space-around 20px;
+    border-color: solid 2px green;
+}
+.flex-item4  {
+
+    float: left;
+    list-style-type: none;
+    margin: 150px 25px 25px 75px;
+    justify-content: space-around 20px;
+    border-color: solid 2px green;
+}
+.flex-item5  {
+
+    float: left;
+    list-style-type: none;
+    margin: 150px 25px 25px 75px;
+    justify-content: space-around 20px;
+    border-color: solid 2px green;
+}
+
+.active {
+    border-bottom:  1px solid green;
+}
+.div nav ul {
+    font-size: 130%;
+    font-family: 'Cormorant Infant', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 100%;
+    height: 40px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background: green;
+    bottom: 30px;
+    right: 150px;
+
+    position: relative;
+}
+
+    /* flex containers head end */
+
+    /* flex box footer start */
+
+
+ /* flex box footer start */
+
+.flexbox-footer { 
+    border: 1px solid green ;
+    background: green;
+    width: 100%;
+    height: 85px;
+    flex-direction: row;
+                }
+.social { 
+    float: left;
+    color: inherit;
+    height: 50%;
+    width: 20%; 
+    border-radius: 10px 10px 10px 10px;
+    list-style-type: none;
+    text-align: center;
+   
+    
+}
+.p { 
+    float: left;
+    text-align: center;
+    weight: 200;
+    height: 20px;
+    font-size: 100% ;
+    width: 100%;
+}
+ /* flex box footer end */
+
+
