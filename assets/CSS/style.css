@@ -11,47 +11,55 @@ font-family: 'Tinos', serif; */
     border: none;
 }
 
-body 
-{
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradiant (45deg,green, white);
-}
-#h1 h2{
+body { 
     font-family: 'Cormorant Infant', serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    color: black;
+   
+}
+    
+
+h1 h2{
+    font-family: 'Cormorant Infant', serif;
+    text-transform: capitalize;
     letter-spacing: 10px;
     color: black;
+    ;
 }
-.p {
+p {
     font-family: 'Tinos', serif; 
     text-transform: lowercase;
     letter-spacing: 4px;
+    color: black;
 }
 
 /* flex container start */
-.flex-main {
-    display: flex;
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 300;
-    max-width: 100%;
-    min-height: 100vh;
-    background: linear-gradient (45deg,green, white);
-    flex-direction: column;
-}
 
-.flex-head {
-        display:flex;
-        font-size: 400%; 
-        font-weight: 800; 
-        max-width: 100%;
-        color: Black;
-        border: 1px solid black;
-        margin: 15px 15px 15px 20px;
-        text-transform: capitalize;
-        background: white 0.1;
-        justify-content: flex-left;
+
+.flex-main {
+
+    display:flex;
+    justify-content: flex-start;
+    align-items: left;
+    min-height: 200vh;
+    background: linear-gradient(45deg, green,white);
+    flex-direction: column;
     
-    }
+}
+.flex-logo { 
+    height: 75px;
+    width: 100%;
+    background: white;
+    border: none;
+    margin: none;
+
+}
+#logo { 
+    font-family: 'Cormorant Infant', serif;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 350%;
+    color: black
+    
+
+}
