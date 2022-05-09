@@ -47,12 +47,13 @@ p {
 
 }
     
-.image { 
+#hero { 
     width: max-width 100%;
-    height: 150px;
-    background: url("https://res.cloudinary.com/martimib/image/upload/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
+    height: 300px;
+    background-image: url("https://res.cloudinary.com/martimib/image/upload/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
 
-   
+    
+
 }
 #navbar { 
     font-size: 150%;
