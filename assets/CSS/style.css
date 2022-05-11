@@ -71,34 +71,33 @@ p {
 
 }
 #heroimage { 
-    display: inline-flex;   
+    display:flex;   
     background-image: url("https://res.cloudinary.com/martimib/image/upload/c_limit,h_300,o_100,q_auto:best,w_3020/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
     height: 440px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    
     font-family: 'Cormorant Infant', serif;
     font-size: 200%;
-    float: left;
+   
     color: black;
-    list-style-type: none;
     text-transform: uppercase;
     text-align: center;
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
     
+    
+    
 }
 
-
-#a { 
+#nav a { 
     text-decoration: none;
     color: inherit;
     font-size: 100px;
     font-weight: 400;
 }
-#a:hover {
+#nav a:hover {
     background: white;
     color: green;
     border-bottom: 1px solid green;
@@ -122,6 +121,8 @@ p {
 
 }
 
+flexbox-container
+flexbox-container2flexbox-container2flexbox-container2
 
 
     /* flex containers head end */
@@ -142,9 +143,9 @@ p {
 }
                 
 .social { 
-    
+    color: green;
     float:left;
-    height: 30px;
+    height: 80px;
     width: 20%; 
     list-style-type: none;
     text-align: center;
@@ -155,9 +156,9 @@ p {
 }
 
 #footer-p { 
-    float: left;
+    
     text-align: center;
-    font-weight: 100;
+    font-weight: 50;
     height: 20px;
     width: 100%;
 }
