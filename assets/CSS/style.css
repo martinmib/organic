@@ -15,11 +15,14 @@ body {
     font-family: 'Cormorant Infant', serif;
     text-transform: uppercase;
     color: black;
-   
-}
-section {
     display: flex;
 }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
     
 
 h1 h2{
@@ -27,7 +30,7 @@ h1 h2{
     text-transform: uppercase;
     letter-spacing: 4px;
     color: black;
-    ;
+    
 }
 p {
     font-family: 'Tinos', serif; 
@@ -42,7 +45,8 @@ p {
 .flex-main {
 
     display:flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    
     width: 100%;
     height: 800px;
     align-items: left;
@@ -71,33 +75,39 @@ p {
 
 }
 #heroimage { 
+    
     display:flex;   
     background-image: url("https://res.cloudinary.com/martimib/image/upload/c_limit,h_300,o_100,q_auto:best,w_3020/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
     height: 440px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    
     font-family: 'Cormorant Infant', serif;
     font-size: 200%;
-   
     color: black;
     text-transform: uppercase;
     text-align: center;
+    
     flex-direction: column;
     justify-content: space-around;
-    align-content: space-around;
-    
-    
+
     
 }
 
-#nav a { 
+nav ul li {
+    color: red;
+
+}
+
+
+.nav a { 
     text-decoration: none;
     color: inherit;
     font-size: 100px;
     font-weight: 400;
 }
-#nav a:hover {
+.nav a:hover {
     background: white;
     color: green;
     border-bottom: 1px solid green;
