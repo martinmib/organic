@@ -29,7 +29,6 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 250%;
-    color: black;
     text-align: left;
     margin: 5px 0px 5px 20px;
 }
@@ -52,24 +51,30 @@ body {
 .navbar { 
     display: flex;
     background-image: url("https://res.cloudinary.com/martimib/image/upload/c_limit,h_300,o_100,q_auto:best,w_3020/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
-    height: 200px;
+    height: 220px;
     width: 100%;
     background-size: cover;
     justify-content: center;
     border-top: solid 10px darkgreen;
     border-bottom: solid 10px darkgreen;
+    letter-spacing: 4px;
     
-    
+}
+.primary-icon {
+
+
+
 }
 .nav-list {
         list-style-type: none;
+       
+
 }
 
     
 .nav-list .list-item { 
     display: inline-block;
-    padding: 20px 10px;
-    
+    padding : 110px 15px 20px 15px;
 
    
 }
@@ -79,6 +84,7 @@ body {
     font-size: 50px;
     font-weight: 300;
     align-content: center;
+    text-overflow: none;
     
 }
 .nav-list a:hover {
@@ -87,3 +93,24 @@ body {
     border-bottom: 1px solid green;
 }
 
+
+.menu { 
+   
+}
+.menu-line { 
+    width: 20px;
+    height: 3px;
+    background-color: darkgreen;
+    margin-bottom: 4px;
+    align-content: center;
+
+@media all and (max-width: 480px) {
+.navbar { 
+    flex-direction: column;
+}
+.menu { 
+    display: block;
+    position: absolute;
+    right
+}
+}
