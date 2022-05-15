@@ -15,11 +15,17 @@ body {
     flex-direction: column;
 }
 
-.h1
+.h1{
+    font-family: 'Cormorant Infant', serif;
+
+}
 .h2{
+    font-family: 'Source Serif Pro', serif;
+
 
 }
 .p {
+    font-family: 'Tinos', serif;
 
 }
 
@@ -60,11 +66,7 @@ body {
     letter-spacing: 4px;
     
 }
-.primary-icon {
 
-
-
-}
 .nav-list {
         list-style-type: none;
        
@@ -75,13 +77,14 @@ body {
 .nav-list .list-item { 
     display: inline-block;
     padding : 110px 15px 20px 15px;
+    flex-shrink: .2;
 
    
 }
 .nav-list a { 
     text-decoration: none;
     color: darkgreen;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
     align-content: center;
     text-overflow: none;
@@ -95,6 +98,7 @@ body {
 
 
 .menu { 
+    display: none;
    
 }
 .menu-line { 
@@ -104,13 +108,52 @@ body {
     margin-bottom: 4px;
     align-content: center;
 
-@media all and (max-width: 480px) {
+}
+
+.flexbox-container2 {
+    flex-direction: row;
+    height: 220px;
+    width: 100%;
+    background-size: cover;
+    
+    border-top: solid 10px darkgreen;
+    border-bottom: solid 10px darkgreen;
+    letter-spacing: 4px;
+    text-align: center;
+}
+    
+.flexbox-container3 {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+    }
+
+.flexbox-container4 {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+    }
+
+
+
+
+
+
+/* media queries */
+
+    @media all and (max-width: 320px) {
 .navbar { 
     flex-direction: column;
 }
 .menu { 
-    display: block;
+    display: column;
     position: absolute;
-    right
+    ;
+}
+.nav-list {
+display: none;
+flex-basis: auto;
 }
 }
