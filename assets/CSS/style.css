@@ -7,48 +7,70 @@ font-family: 'Tinos', serif; */
 
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
-.navbar { 
-    background-color: Green ;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 20px;
-    align-items: center;
+body { 
     
+    font-family: 'Cormorant Infant', serif;
+    font-size: 16px;
 }
-
-.nav-list {
-    list-style-type: none;
+nav { 
+    background: green;
+    padding: 0 15px; 
 }
-
-.nav-list .list-item {
-     display: inline-block;
-     padding: 20px 10px;
-}
-
-.navbar a { 
-    color:white;
+a { 
+    color: white;
     text-decoration: none;
 }
-.navbar a:hover { 
-    background: white;
-    border-bottom: 1px solid green;
-    color: green;
+.menu {
+    list-style-type: none;
+
 }
-.primary{
+.logo {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
 }
-.navbar .logo a:hover {
-    background: white;
-    color: white;
-    border-bottom: 1px solid white;
+.item {
+    padding: 10px;
+}
+.item.button { 
+    padding: 9px 5px;
 }
 
-.active {
-     
+.item:not(.button) a:hover,
+.item a:hover::after {
+    background: white;
+    color: Green
 }
 
+/* mobile menu */
+
+
+.menu { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu li a { 
+    display: block;
+    padding: 15px 5px;
+}
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+.item.button { 
+    order: 2;
+}
+.item { 
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.active .item { 
+    display: block;
+}
