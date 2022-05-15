@@ -10,150 +10,45 @@ font-family: 'Tinos', serif; */
     margin: 0;
     padding: 0;
 }
-body { 
-    display: flex;
-    flex-direction: column;
-}
-
-.h1{
-    font-family: 'Cormorant Infant', serif;
-
-}
-.h2{
-    font-family: 'Source Serif Pro', serif;
-
-
-}
-.p {
-    font-family: 'Tinos', serif;
-
-}
-
-.logo { 
-    float: left;
-    font-family: 'Cormorant Infant', serif;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 250%;
-    text-align: left;
-    margin: 5px 0px 5px 20px;
-}
-.logo a { 
-    text-decoration: none;
-    color: darkgreen;
-    font-size: 40px;
-    font-weight: 300;
-    
-}
-.logo a:hover {
-    background: white;
-    color: green;
-    border-bottom: 1px solid green;
-}
-
-
-
 
 .navbar { 
+    background-color: Green ;
+    color: white;
     display: flex;
-    background-image: url("https://res.cloudinary.com/martimib/image/upload/c_limit,h_300,o_100,q_auto:best,w_3020/v1651936546/organic-media/College%20Fruit/College%20Fruit/hero_gmkpqj.jpg");
-    height: 220px;
-    width: 100%;
-    background-size: cover;
-    justify-content: center;
-    border-top: solid 10px darkgreen;
-    border-bottom: solid 10px darkgreen;
-    letter-spacing: 4px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    align-items: center;
     
 }
 
 .nav-list {
-        list-style-type: none;
-       
-
+    list-style-type: none;
 }
 
-    
-.nav-list .list-item { 
-    display: inline-block;
-    padding : 110px 15px 20px 15px;
-    flex-shrink: .2;
-
-   
+.nav-list .list-item {
+     display: inline-block;
+     padding: 20px 10px;
 }
-.nav-list a { 
+
+.navbar a { 
+    color:white;
     text-decoration: none;
-    color: darkgreen;
-    font-size: 40px;
-    font-weight: 300;
-    align-content: center;
-    text-overflow: none;
-    
 }
-.nav-list a:hover {
+.navbar a:hover { 
     background: white;
-    color: green;
     border-bottom: 1px solid green;
+    color: green;
+}
+.primary{
+}
+.navbar .logo a:hover {
+    background: white;
+    color: white;
+    border-bottom: 1px solid white;
 }
 
-
-.menu { 
-    display: none;
-   
-}
-.menu-line { 
-    width: 20px;
-    height: 3px;
-    background-color: darkgreen;
-    margin-bottom: 4px;
-    align-content: center;
-
+.active {
+     
 }
 
-.flexbox-container2 {
-    flex-direction: row;
-    height: 220px;
-    width: 100%;
-    background-size: cover;
-    
-    border-top: solid 10px darkgreen;
-    border-bottom: solid 10px darkgreen;
-    letter-spacing: 4px;
-    text-align: center;
-}
-    
-.flexbox-container3 {
-    display: flex;
-    height: 200px;
-    width: 100%;
-    border: 2px solid black;
-    }
-
-.flexbox-container4 {
-    display: flex;
-    height: 200px;
-    width: 100%;
-    border: 2px solid black;
-    }
-
-
-
-
-
-
-/* media queries */
-
-    @media all and (max-width: 320px) {
-.navbar { 
-    flex-direction: column;
-}
-.menu { 
-    display: column;
-    position: absolute;
-    ;
-}
-.nav-list {
-display: none;
-flex-basis: auto;
-}
-}
