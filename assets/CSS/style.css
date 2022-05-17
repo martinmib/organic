@@ -37,7 +37,7 @@ p {
     height: 95px;
     justify-content: space-between;
     margin: auto;
-    border-bottom: solid green 10px;
+    border-bottom: solid green 15px;
 
     
 }
@@ -88,18 +88,18 @@ p {
     background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url('../CSS/media/collegefruit/mixed-fruit.jpeg');
     background-position: center no-repeat;
     background-size: cover;
-    float: none;
+   
 
 
 }
 
 .hero {
     width: 100%;
-    height: 380px;
+    height: 725px;
     background-image: url('../CSS/media/collegefruit/juices-standing.jpeg');
     background-position: center no-repeat;
     background-size: cover;
-    border-bottom: solid darkgreen 10px;
+    border-bottom: solid darkgreen 15px;
     
 
 }
@@ -119,8 +119,9 @@ color: darkgreen;
 background-color: white;
 height: 50px;
 text-transform: uppercase;
-border: solid white 20px;
+border: solid white 10px;
 justify-content: center center;
+
 
 }
 
@@ -134,7 +135,28 @@ justify-content: center center;
 .footer {
 
     height: 75px;
-    background-color: darkgreen;
+    background-color: whitesmoke;
     width: 100%;
+    color: darkgreen;
+    border-top: 20px solid darkgreen;
+    align-items: center;
 
  }
+ .footer ul li { 
+     list-style: none;
+     display: inline-block;
+     
+    }
+    
+    .footer ul li a { 
+        text-decoration: none;
+        color: green;
+        text-transform: uppercase;
+        font-size: 120%;
+        font-weight: 600
+    } 
+    .footer ul li a:hover { 
+        color: white;
+        background: darkgreen;
+    }
+ 
