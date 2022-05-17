@@ -15,7 +15,8 @@ body {
     display:flex;
     font-family: 'Cormorant Infant', serif;
     font-size: 16px;
-    height: 100%;
+    
+
 
 }
 
@@ -33,10 +34,10 @@ p {
     width: 100%;
     align-items: center;
     background-color: white;
-    color: green;
-    height: 75px;
+    height: 95px;
     justify-content: space-between;
     margin: auto;
+    border-bottom: solid green 10px;
 
     
 }
@@ -45,13 +46,17 @@ p {
     font-weight: 800;
     text-transform:  uppercase;
     color: darkgreen;
-    text-decoration: none;
     padding: 1px;
     margin-left: 20px;
-
-    
-   
 }
+    .logo a {
+        color: darkgreen;
+        text-decoration: none;
+        margin-left: 20px;
+
+    }
+   
+
 .navbar ul li { 
     list-style: none;
     display: inline-block;
@@ -80,20 +85,56 @@ p {
 .background { 
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url('../CSS/media/collegefruit/mixed-fruit.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url('../CSS/media/collegefruit/mixed-fruit.jpeg');
     background-position: center no-repeat;
     background-size: cover;
+    float: none;
+
 
 }
 
+.hero {
+    width: 100%;
+    height: 380px;
+    background-image: url('../CSS/media/collegefruit/juices-standing.jpeg');
+    background-position: center no-repeat;
+    background-size: cover;
+    border-bottom: solid darkgreen 10px;
+    
 
+}
 .fruit-images {
+    display: flex;
+    height: 150px; 
+    background: rgba(0,0,0,0.50);
+    width: 100%;
+    justify-content: center;
+
+    
 
 }
+.heading-fruit {
+font-size: 20px;
+color: darkgreen;
+background-color: white;
+height: 50px;
+text-transform: uppercase;
+border: solid white 20px;
+justify-content: center center;
+
+}
+
 .what-we-do { 
+
    
 }
 .what-we-offer {
     
 }
-.footer { }
+.footer {
+
+    height: 75px;
+    background-color: darkgreen;
+    width: 100%;
+
+ }
