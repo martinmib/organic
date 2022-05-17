@@ -6,3 +6,5 @@ add header and logo structured into position
 cleared css and html head media wouldnt adjust kept going from full screen to hlf white hlf green
 
 
+deleted css to understand it better and so my code wasnt copying
+kept the js file not a dickey on how it works yet 

@@ -11,8 +11,45 @@ font-family: 'Tinos', serif; */
     margin: 0;
 }
 
-body { 
-    
-    font-family: 'Cormorant Infant', serif;
-    
+body { font-family: 'Cormorant Infant', serif;
+   display: flex;
+        flex-direction: columns;
+}
+
+h1 h2 { 
+    font-family: 'Source Serif Pro', serif;
+
+}
+p { 
+    font-family: 'Tinos', serif;
+    color: black;
+}
+nav {
+    background: green;
+    border-bottom: green 1px solid;
+}
+.hero {  
+  background: url('../assets/CSS/media/College Fruit/juices-standing.jpeg') no-repeat center center;
+    height: 100px;
+
+}
+.fruit-images {
+    height:350px;
+    background: pink;
+    padding: 0 ;
+
+}
+.what-we-do { 
+    height: 150px;
+    background: blue;
+}
+.what-we-offer {
+    height: 150px; 
+    background: lightgreen;
+}
+.footer { 
+    height: 120px;
+    background: green;
+    color: white;
+    padding-top: 2px;
 }
