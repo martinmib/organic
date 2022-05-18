@@ -149,49 +149,78 @@ p {
 
 
 }
-.fruit {
-
-    
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: white solid 5px;
-    background-size: contain;
-    align-content: center;
-   
-
-   
-
-}
 .strawberry { 
-
-    width: 145px;
-    height: 145px;
-    background-size: contain;
-    align-content: center;
+    background-image: url(../CSS/media/collegefruit/strawberry.jpg);
+    width: 155px;
+    height: 155px;
+    background-size: cover;
     border-radius: 50%;
+    align-content: center no-repeat;
+    
 
 }
 
 .blueberry {
+    background-image: url(../CSS/media/collegefruit/blueberry.jpg);
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-content: center no-repeat;
+    border-radius: 50%;
 
 }
 .banana {
+    background-image: url(../CSS/media/collegefruit/bannana.jpg);
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-content: center no-repeat;
+    border-radius: 50%;
 
 }
 .grapes {
+    background-image: url(../CSS/media/collegefruit/grapes.jpg);
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-content: center no-repeat;
+    border-radius: 50%;
 
 }
 .raspberry {
+    background-image: url(../CSS/media/collegefruit/raspberry.jpg);
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-content: center no-repeat;
+    border-radius: 50%;
 
 }
 .orange {
+    background-image: url(../CSS/media/collegefruit/orange.jpg);
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-content: center no-repeat;
+    border-radius: 50%;
 
 }
 .apple {
+    background-image: url(../CSS/media/collegefruit/apple.jpg);
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-content: center no-repeat;
+    border-radius: 50%;
 
 }
 .passion-fruit {
+    background-image: url(../CSS/media/collegefruit/passion-fruit.jpg);
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    align-content: center no-repeat;
+    border-radius: 50%;
 
 }
 

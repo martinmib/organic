@@ -11,3 +11,5 @@ kept the js file not a dickey on how it works yet
 
 
 ran into an issue placing the images in the fruit images 
+
+got them in no problem after just aligning
