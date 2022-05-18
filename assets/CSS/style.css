@@ -11,11 +11,11 @@ font-family: 'Tinos', serif; */
     margin: 0;
 }
 
-body { 
-    display:flex;
+body {
+    display: flex;
     font-family: 'Cormorant Infant', serif;
     font-size: 16px;
-    
+
 
 
 }
@@ -23,10 +23,11 @@ body {
 h1 h2 {
     font-family: 'Source Serif Pro', serif;
 }
-p { 
+
+p {
     font-family: 'Tinos', serif;
 
-    
+
 }
 
 .navbar {
@@ -37,126 +38,159 @@ p {
     height: 95px;
     justify-content: space-between;
     margin: auto;
-    border-bottom: solid green 15px;
+    border-bottom: solid darkgreen 15px;
 
-    
+
 }
-.logo { 
+
+.logo {
     font-size: 60px;
     font-weight: 800;
-    text-transform:  uppercase;
+    text-transform: uppercase;
     color: darkgreen;
     padding: 1px;
     margin-left: 20px;
 }
-    .logo a {
-        color: darkgreen;
-        text-decoration: none;
-        margin-left: 20px;
 
-    }
-   
+.logo a {
+    color: darkgreen;
+    text-decoration: none;
+    margin-left: 20px;
 
-.navbar ul li { 
+}
+
+
+.navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 25px;
 }
-.navbar ul li a { 
+
+.navbar ul li a {
     text-decoration: none;
     color: green;
     text-transform: uppercase;
     font-size: 120%;
-    font-weight: 600
-} 
-.navbar ul li a:hover { 
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbar ul li a:hover {
     color: white;
     background: darkgreen;
 }
-.menu .toggle { 
-       display: inline-block;
-       height: 40px;
-       padding: 30px; 
-    
-    
 
-   
+.menu .toggle {
+    display: inline-block;
+    height: 40px;
+    padding: 30px;
+
+
+
+
 }
-.background { 
+
+.background {
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url('../CSS/media/collegefruit/mixed-fruit.jpeg');
+    height: 1230px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('../CSS/media/collegefruit/mixed-fruit.jpeg');
     background-position: center no-repeat;
     background-size: cover;
-   
-
-
 }
 
 .hero {
     width: 100%;
-    height: 725px;
+    height: 735px;
     background-image: url('../CSS/media/collegefruit/juices-standing.jpeg');
     background-position: center no-repeat;
     background-size: cover;
     border-bottom: solid darkgreen 15px;
-    
+
 
 }
+
 .fruit-images {
     display: flex;
-    height: 150px; 
-    background: rgba(0,0,0,0.50);
+    height: 400px;
+    background: rgba(0, 0, 0, 0.40);
     width: 100%;
+    justify-content: space-around;
+    margin-bottom: solid darkgreen 15px;
+
+
+
+}
+
+.heading {
+    display: flex;
+    font-size: 20px;
+    color: darkgreen;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: solid white 10px;
     justify-content: center;
 
-    
 
-}
-.heading-fruit {
-font-size: 20px;
-color: darkgreen;
-background-color: white;
-height: 50px;
-text-transform: uppercase;
-border: solid white 10px;
-justify-content: center center;
 
 
 }
 
-.what-we-do { 
+.what-we-do {
+    display: flex;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.40);
+    width: 100%;
+    justify-content: center;
+    border-bottom: solid darkgreen 15px;
 
-   
 }
+
+
 .what-we-offer {
-    
-}
-.footer {
+    display: flex;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.40);
+    width: 100%;
+    justify-content: center;
+    border-bottom: solid darkgreen 15px;
 
-    height: 75px;
+
+}
+
+.footer {
+    display: flex;
+
+    height: 95px;
+    flex-direction: column;
     background-color: whitesmoke;
     width: 100%;
     color: darkgreen;
-    border-top: 20px solid darkgreen;
+    border-top: 15px solid darkgreen;
     align-items: center;
+    justify-content: center;
+}
 
- }
- .footer ul li { 
-     list-style: none;
-     display: inline-block;
-     
-    }
-    
-    .footer ul li a { 
-        text-decoration: none;
-        color: green;
-        text-transform: uppercase;
-        font-size: 120%;
-        font-weight: 600
-    } 
-    .footer ul li a:hover { 
-        color: white;
-        background: darkgreen;
-    }
- 
+.footer ul li {
+
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: green;
+    text-transform: uppercase;
+    font-size: 250%;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.footer ul li a:hover {
+    color: white;
+    background: darkgreen;
+}
