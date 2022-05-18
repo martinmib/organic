@@ -111,18 +111,21 @@ p {
 
 .fruit-images {
     display: flex;
+    flex-direction: column;
     height: 400px;
     background: rgba(0, 0, 0, 0.40);
     width: 100%;
     justify-content: space-around;
-    margin-bottom: solid darkgreen 15px;
-
+    border-bottom: solid darkgreen 15px;
+    
 
 
 }
 
+
 .heading {
     display: flex;
+    align-content: flex-start;
     font-size: 20px;
     color: darkgreen;
     width: 100%;
@@ -132,9 +135,21 @@ p {
     text-transform: uppercase;
     border: solid white 10px;
     justify-content: center;
+    align-content: flex-start;
+}
+.fruitbox {
+    
+    align-content: center;
 
+}
 
-
+.fruit { 
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    justify-content: space-around;
+    border: white solid 5px;
+    flex-direction: column;
 
 }
 
@@ -168,7 +183,7 @@ p {
     background-color: whitesmoke;
     width: 100%;
     color: darkgreen;
-    border-top: 15px solid darkgreen;
+    
     align-items: center;
     justify-content: center;
 }
@@ -187,10 +202,11 @@ p {
     text-transform: uppercase;
     font-size: 250%;
     font-weight: 600;
-    padding-top: 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .footer ul li a:hover {
     color: white;
     background: darkgreen;
 }
+

@@ -8,3 +8,6 @@ cleared css and html head media wouldnt adjust kept going from full screen to hl
 
 deleted css to understand it better and so my code wasnt copying
 kept the js file not a dickey on how it works yet 
+
+
+ran into an issue placing the images in the fruit images 
