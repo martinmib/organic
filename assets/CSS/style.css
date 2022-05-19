@@ -150,18 +150,17 @@ p {
 
 }
 .strawberry { 
-    background-image: url(../CSS/media/collegefruit/strawberry.jpg);
+       
+    background-image: url('../CSS/media/collegefruit/strawberry.jpg') ;
+    display:block;
     width: 155px;
     height: 155px;
-    background-size: cover;
     border-radius: 50%;
-    align-content: center no-repeat;
-    
-
+    background-size: cover;
 }
 
 .blueberry {
-    background-image: url(../CSS/media/collegefruit/blueberry.jpg);
+    background-image: url('../CSS/media/collegefruit/blueberry.jpg');
     width: 155px;
     height: 155px;
     background-size: cover;
@@ -170,7 +169,7 @@ p {
 
 }
 .banana {
-    background-image: url(../CSS/media/collegefruit/bannana.jpg);
+    background-image: url('../CSS/media/collegefruit/bannana.jpg');
     width: 155px;
     height: 155px;
     background-size: cover;
@@ -179,7 +178,7 @@ p {
 
 }
 .grapes {
-    background-image: url(../CSS/media/collegefruit/grapes.jpg);
+    background-image: url('../CSS/media/collegefruit/grapes.jpg');
     width: 155px;
     height: 155px;
     background-size: cover;
@@ -188,7 +187,7 @@ p {
 
 }
 .raspberry {
-    background-image: url(../CSS/media/collegefruit/raspberry.jpg);
+    background-image: url('../CSS/media/collegefruit/raspberry.jpg');
     width: 155px;
     height: 155px;
     background-size: cover;
@@ -197,7 +196,7 @@ p {
 
 }
 .orange {
-    background-image: url(../CSS/media/collegefruit/orange.jpg);
+    background-image: url('../CSS/media/collegefruit/orange.jpg');
     width: 155px;
     height: 155px;
     background-size: cover;
@@ -206,7 +205,7 @@ p {
 
 }
 .apple {
-    background-image: url(../CSS/media/collegefruit/apple.jpg);
+    background-image: url('../CSS/media/collegefruit/apple.jpg');
     width: 155px;
     height: 155px;
     background-size: cover;
@@ -215,7 +214,7 @@ p {
 
 }
 .passion-fruit {
-    background-image: url(../CSS/media/collegefruit/passion-fruit.jpg);
+    background-image: url('../CSS/media/collegefruit/passion-fruit.jpg');
     width: 155px;
     height: 155px;
     background-size: cover;
@@ -228,6 +227,7 @@ p {
 
 .what-we-do {
     display: flex;
+    flex-direction: column;
     height: 400px;
     background: rgba(0, 0, 0, 0.40);
     width: 100%;
@@ -235,6 +235,32 @@ p {
     border-bottom: solid darkgreen 15px;
 }
 
+.we-do {
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    
+}
+.we-do > h2 { 
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px,15px,15px,15px;
+}
+.we-do > p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 .what-we-offer {
     display: flex;
