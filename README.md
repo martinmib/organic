@@ -24,3 +24,9 @@ put in comment in the html to help me understand the structure on paper
 after setting out the structure i redone the css and started at mobile size working forward easier to do and structure
 
 https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
+
+
+gitpod /workspace/organic (main) $ git commit -m "restructured css back to mobile view" 
+[main 31e4a0b] restructured css back to mobile view
+ 3 files changed, 228 insertions(+), 189 deletions(-)
+ rewrite index.html (61%)
