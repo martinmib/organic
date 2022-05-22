@@ -20,6 +20,11 @@ body {
 
 }
 
+.container {
+    display: flex;
+
+}
+
 h1 h2 {
     font-family: 'Source Serif Pro', serif;
 }
@@ -39,11 +44,18 @@ p {
     justify-content: space-between;
     margin: auto;
     border-bottom: solid darkgreen 15px;
-    
+
 
 
 }
-.img {max-width:100%;}
+
+.item {
+    display:none;
+}
+
+.img {
+    max-width: 100%;
+}
 
 .logo {
     font-size: 60px;
@@ -92,178 +104,166 @@ p {
 
 }
 
+.active {
+    border-bottom: 2px solid darkgreen;
+}
+
 .background {
     width: 100%;
-    height: 1110px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('../CSS/media/collegefruit/mixed-fruit.jpeg');
+    max-height: 900px;
+    background-image:
+        /* linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),*/
+        url('../CSS/media/collegefruit/mixed-fruit.jpeg');
     background-position: center;
     background-size: cover;
 }
 
 .hero {
     width: 100%;
-    height: 735px;
+    min-height: 200px;
     background-image: url('../CSS/media/collegefruit/juices-standing.jpeg');
-    background-position: center;
+    background-position: top;
     background-size: cover;
-    border-bottom: solid darkgreen 30px;
+    flex-grow: 2;
+}
 
+.heading {
+    display: flex;
+    align-content: flex-start;
+    font-size: 15px;
+    color: darkgreen;
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top: solid darkgreen 15px;
+    border-bottom: solid darkgreen 15px;
 
 }
 
 .fruit-images {
     display: flex;
     flex-direction: column;
-    height: 250px;
-    background: rgba(0, 0, 0, 0.40);
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.35);
     width: 100%;
-    justify-content: space-around;
-    border-bottom: solid darkgreen 15px;
+    margin: auto;
+    height: 245px;
 }
 
 
-
-.heading {
-    display: flex;
-    align-content: flex-start;
-    font-size: 20px;
-    color: darkgreen;
+.center-text {
     width: 100%;
-    background-color: white;
-    height: 50px;
-    letter-spacing: 2px;
+    height: 25px;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 0 5px 0;
     text-transform: uppercase;
-    border: solid white 10px;
-    justify-content: center;
-   
+
 }
 
 .fruitbox {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 385px;
+    background: rgba(0, 0, 0, 0.35);
     width: 100%;
-    justify-content: space-around;
-    padding: 15px 15px 15px 15px;
-
+    align-items: center;
+   
+   
 
 }
-.strawberry { 
-       
-    background-image: url('../CSS/media/collegefruit/strawberry.jpg') ;
-    display:block;
-    width: 155px;
-    height: 155px;
-    border-radius: 50%;
+
+.size {
+    width: 50px;
+    height: 50px;
     background-size: cover;
     align-content: center;
+    border-radius: 50%;
+    padding: 2px;
+   margin: auto;
 }
+
+.strawberry {
+
+    background-image: url('../CSS/media/collegefruit/strawberry.jpg');
+}
+
 
 .blueberry {
     background-image: url('../CSS/media/collegefruit/blueberry.jpg');
-    width: 155px;
-    height: 155px;
-    background-size: cover;
-    align-content: center;
-    border-radius: 50%;
 
 }
+
 .banana {
     background-image: url('../CSS/media/collegefruit/bannana.jpg');
-    width: 155px;
-    height: 155px;
-    background-size: cover;
-    align-content: center;
-    border-radius: 50%;
 
 }
+
 .grapes {
     background-image: url('../CSS/media/collegefruit/grapes.jpg');
-    width: 155px;
-    height: 155px;
-    background-size: cover;
-    align-content: center;
-    border-radius: 50%;
+
 
 }
+
 .raspberry {
     background-image: url('../CSS/media/collegefruit/raspberry.jpg');
-    width: 155px;
-    height: 155px;
-    background-size: cover;
-    align-content: center;
-    border-radius: 50%;
-
 }
+
 .orange {
     background-image: url('../CSS/media/collegefruit/orange.jpg');
-    width: 155px;
-    height: 155px;
-    background-size: cover;
-    align-content: center;
-    border-radius: 50%;
-
 }
+
 .apple {
     background-image: url('../CSS/media/collegefruit/apple.jpg');
-    width: 155px;
-    height: 155px;
-    background-size: cover;
-    align-content: center;
-    border-radius: 50%;
-
 }
+
 .passion-fruit {
     background-image: url('../CSS/media/collegefruit/passion-fruit.jpg');
-    width: 155px;
-    height: 155px;
-    background-size: cover;
-    align-content: center;
-    border-radius: 50%;
-
 }
-
 
 
 .what-we-do {
     display: flex;
     flex-direction: column;
-    height: 400px;
-    background: rgba(0, 0, 0, 0.40);
+    height: 300px;
+    color: white;
+    background: rgba(0, 0, 0, 0.35);
     width: 100%;
+    text-align: center;
+    align-items: center;
     justify-content: center;
-    border-bottom: solid darkgreen 15px;
+   
+
 }
 
-.we-do {
-    
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    color: white;
-    width: 100%;
-    height: 400px;
-    justify-content: center;
-    
-}
 .we-do > h2 { 
-    font-size: 30px;
     letter-spacing: 3px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 15px 15px 15px 15px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.35);
+    
 }
+
+/*
+
+
 .we-do > p {
     font-size: 16px;
     letter-spacing: 2px;
     justify-content: center;
-    align-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    text-align: center;
+    padding: 30px;
     height: 120px;
-    max-width: 800px;
+    max-width: 100%;
     background-color: rgba(255,255, 255, 0.25);
 }
 
@@ -273,7 +273,12 @@ p {
     background: rgba(0, 0, 0, 0.40);
     width: 100%;
     justify-content: center;
-    border-bottom: solid darkgreen 15px;
+   
+    
+}
+
+delivery-icons { 
+    width: 100%;
 }
 
 .footer {
@@ -285,6 +290,7 @@ p {
     color: darkgreen;
     align-items: center;
     justify-content: center;
+    border-top: solid darkgreen 15px;
 }
 
 .footer ul li {
@@ -307,4 +313,8 @@ p {
 .footer ul li a:hover {
     color: white;
     background: darkgreen;
+}*/
+
+
+
 }
