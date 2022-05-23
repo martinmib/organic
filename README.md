@@ -44,3 +44,5 @@ gitpod /workspace/organic (main) $ git commit -m "restructured css back to mobil
 
  https://www.istockphoto.com/search/2/image?family=creative&phrase=fruit%20
  
+
+ trying to figure out how to place the boxes center

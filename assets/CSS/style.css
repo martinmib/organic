@@ -16,20 +16,30 @@ body {
     flex: 1;
     font-family: 'Cormorant Infant', serif;
     font-size: 16px;
+    max-width: 380px;
 }
 
-.container {
-    display: flex;
 
-}
 
-h1 h2 {
+
+h1{
     font-family: 'Source Serif Pro', serif;
     text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
 }
 
+h2 {
+    font-family: 'Source Serif Pro', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
 p {
     font-family: 'Tinos', serif;
+    font-size: 16px;
 
 
 }
@@ -62,6 +72,7 @@ p {
     color: darkgreen;
     padding: 1px;
     margin: 5px;
+    letter-spacing: 4px;
 }
 
 .logo a {
@@ -87,7 +98,8 @@ p {
     text-transform: uppercase;
     justify-content: space-around;
     font-size: 80%;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    font-weight: 600;
 
 }
 
@@ -280,7 +292,7 @@ p {
     display: flex;
     flex-direction: column;
     height: 330px;
-    background: rgba(0, 0, 0, 0.40);
+    background: rgba(0, 0, 0, 0.35);
     width: 100%;
     color: white;
     text-transform: uppercase;
@@ -313,11 +325,12 @@ p {
     display: flex;
     height: 95px;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
     background-color: whitesmoke;
     width: 100%;
     color: darkgreen;
-    text-align: center;
-    justify-content: center;
+   
 
     border-top: solid darkgreen 15px;
 }
@@ -350,35 +363,104 @@ p {
 
 .products-background {
     display: flex;
-    flex-wrap: wrap;
-    background-image: url('../CSS/media/collegefruit/Background-products.jpg');
+    flex-direction: column;
+    background: url('../CSS/media/collegefruit/Background-products.jpg') no-repeat fixed;
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     align-items: center;
-    justify-content: space-round;
-    background-position: top;
+    justify-content: space-between;
+    background-position: center;
     background-size: cover;
-    padding: 15px;
+    padding: 50px;
     color: white;
 
 }
 
 .products-list {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
     padding: 10px 10px 10px 10px;
-    
+
+
 
 }
 
 .products-list-item {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     color: white;
     height: 150px;
-    width: 150px;
-    padding: 10px;
+    width: 100%;
+    padding-top: 20px;
     border: solid white 4px;
+    background-size: contains;
+    
 }
 
+#jucie1{
+     background: url("../CSS/media/collegefruit/small-box.jpg");
+}
+.fruit { 
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    width: 100%; 
+    height: 1000px;
+}
+
+.juices {
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    width: 100%; 
+    height: 1000px;
+    
+}
+/* products end */
+/* contact us start */
+
+.contact-background {
+    display: flex;
+    flex-direction: column;
+    height: 990px;
+    width: 100%;
+    background: url('../CSS/media/collegefruit/mixed-juices.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    color: white;
+    padding: 80px;   
+    
+    
+
+
+}
+.background-shadow {
+    display: flex;
+    background: rgba(0, 0, 0, 0.40);
+    width:100%;
+    height: 820px;
+    align-items: center;
+    justify-items: center;
+    padding: 25px;
+
+}
+.contact-us {
+    
+    margin: 3px white solid;
+    
+}
+.labels {
+    font-size: 25px;
+}
+/*contact us end*/

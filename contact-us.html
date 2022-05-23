@@ -15,28 +15,118 @@
     <title>Organic</title>
 </head>
 <!--body section start-->
+
 <body>
 
     <div>
         <div class="navbar">
             <h1 class="logo">
                 <a href="index.html">Organic</a></h1>
-                <br>
+            <br>
             <ul class="menu">
-                <li class="item"><a href="index.html" >Home</a></li>
-                <li class="item"><a href="products.html" >Products</a></li>
-                <li class="item"><a href="gallery.html" >Gallery</a></li>
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="products.html">Products</a></li>
+                <li class="item"><a href="gallery.html">Gallery</a></li>
                 <li class="item"><a href="contact-us.html" class="active">Contact</a></li>
                 <li class="item"><a href="sign-up.html">Signup</a>
-            
+
             </ul>
         </div>
+        
         <!--navbar-->
-<div>
+        <!--see notes for credit to-->
+        <div>
+            <div class="contact-background">
+                
+                <div class="background-shadow">
+                <div class="contact-us">
+                    <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+                        
+                        <!--script for form starts here-->
+                        <script type="text/javascript">
+                            function ValidateForm(frm) {
+                                if (frm.Name.value == "") {
+                                    alert('Name is required.');
+                                    frm.Name.focus();
+                                    return false;
+                                }
+                                if (frm.FromEmailAddress.value == "") {
+                                    alert('Email address is required.');
+                                    frm.FromEmailAddress.focus();
+                                    return false;
+                                }
+                                if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(
+                                        ".") < 1) {
+                                    alert('Please enter a valid email address.');
+                                    frm.FromEmailAddress.focus();
+                                    return false;
+                                }
+                                if (frm.Comments.value == "") {
+                                    alert('Please enter comments or questions.');
+                                    frm.Comments.focus();
+                                    return false;
+                                }
+                                return true;
+                            }
+                        </script>
+                        <!--script for form ends here-->
+                        <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="5">
+                            <tr>
+                                <tr>
+                                    <label class="labels" for="Name">NAME:</label>
+                                </tr>
+                                <tr>
+                                    <input name="Name" type="text" maxlength="60" style="width:100%;max-width:500px;height:30px"
+                                    placeholder="full name" alt="name"/>
+                                </tr>
+                            </tr>
+                            <tr>
+                                <tr>
+                                    <label class="labels" for="PhoneNumber" alt="phone-number">PHONE NUMBER:</label>
+                                </tr>
+                                <tr>
+                                    <input name="PhoneNumber" type="text" maxlength="43"
+                                        style="width:100%;max-width:500px;height:30px;" placeholder="phone Number" alt="Phone Number"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <tr>
+                                    <label class="labels" for="FromEmailAddress">EMAIL ADDRESS:</label>
+                                </tr>
+                                <tr>
+                                    <input name="FromEmailAddress" type="text" maxlength="90"
+                                        style="width:100%;max-width:500px;height:30px;" placeholder="email address" />
+                                </tr>
+                            </tr>
+                            <tr>
+                                <tr>
+                                    <label class="labels" for="Comments">COMMENTS:</label>
+                                </tr>
+                                <tr>
+                                    <textarea name="Comments" rows="7" cols="40"
+                                        style="width:100%;max-width:500px;height:400px" placeholder="comment"></textarea>
+                                </tr>
+                            </tr>
+                            <tr>
+                                <tr>
+                                    * - required fields
+                                </tr>
+                                <td>
 
-    this how do it now 
-</div>
-
+                                    <input name="skip_Submit" type="submit" value="Submit" style="width:80px;height:25px; font-size: 20px;"/>
+                                    <div style="float:right"><a href="https://www.100forms.com" id="lnk100"
+                                            title="form to email">form </a></div>
+                                    <script src="https://www.100forms.com/js/FORMKEY:ESKTGEQ6M2FT/SEND:your@email.com"
+                                        type="text/javascript"></script>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--end of sourced code-->
 
         <!-- footer With social media and simple paragraph for copyright  start-->
         <footer class="footer">
@@ -66,7 +156,7 @@
         <!-- footer finish-->
         <!--java script-->
         <script src="script.js"></script>
-    </div>  
+    </div>
 </body>
 <!--body section finish-->
 
