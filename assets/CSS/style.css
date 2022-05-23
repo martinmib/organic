@@ -38,32 +38,27 @@ p {
 .navbar {
     display: flex;
     width: 100%;
-    align-items: center;
+    text-align: center;
+    flex-direction: column;
     background-color: white;
-    height: 95px;
+    height: 140px;
     justify-content: space-between;
     margin: auto;
-    border-bottom: solid darkgreen 15px;
-
-
+    padding: 2px;
+    border-bottom: solid darkgreen 50px;
+   
 
 }
 
-.item {
-    display:none;
-}
-
-.img {
-    max-width: 100%;
-}
 
 .logo {
+    text-align: center;
     font-size: 60px;
     font-weight: 800;
     text-transform: uppercase;
     color: darkgreen;
     padding: 1px;
-    margin-left: 20px;
+    margin: 5px;
 }
 
 .logo a {
@@ -75,42 +70,46 @@ p {
 
 
 .navbar ul li {
+    display: flex;
     list-style: none;
-    display: inline-block;
     margin: 0 25px;
     font-weight: 800;
 }
 
 .navbar ul li a {
+    display: flex;
     text-decoration: none;
-    color: green;
+    color: white;
     text-transform: uppercase;
-    font-size: 120%;
+    justify-content: space-around;
+    font-size: 80%;
     letter-spacing: 2px;
 }
 
 .navbar ul li a:hover {
-    color: white;
-    background: darkgreen;
+    color: darkgreen;
+    background: white;
 }
 
-.menu .toggle {
-    display: inline-block;
-    height: 40px;
-    padding: 30px;
-
-
-
-
+.menu { 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    
 }
+
+
+
 
 .active {
-    border-bottom: 2px solid darkgreen;
+    border-bottom: 2px solid white;
 }
 
 .background {
     width: 100%;
-    max-height: 900px;
+    height: 970px;
     background-image:
         /* linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),*/
         url('../CSS/media/collegefruit/mixed-fruit.jpeg');
@@ -120,7 +119,7 @@ p {
 
 .hero {
     width: 100%;
-    min-height: 200px;
+    height: 270px;
     background-image: url('../CSS/media/collegefruit/juices-standing.jpeg');
     background-position: top;
     background-size: cover;
@@ -149,10 +148,12 @@ p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-around;
     background: rgba(0, 0, 0, 0.35);
     width: 100%;
+    padding-bottom: 15px;
     margin: auto;
-    height: 260px;
+    height: 290px;
 }
 
 
@@ -173,7 +174,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 150px;
+    height: 170px;
     background: rgba(0, 0, 0, 0.35);
     width: 100%;
     align-items: center;
@@ -191,7 +192,7 @@ p {
     align-items: center;
     text-align: center;
     border-radius: 50%;
-    padding: 2px;
+    padding: 30px;
     margin: auto;
 }
 
@@ -237,13 +238,13 @@ p {
 .what-we-do {
     display: flex;
     flex-direction: column;
-    height: 330px;
+    height: 350px;
     color: white;
     background: rgba(0, 0, 0, 0.35);
     width: 100%;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
    
 
 }
@@ -253,32 +254,32 @@ p {
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 5px;
-    background: rgba(0, 0, 0, 0.35);
+    
     
 }
 
 .we-do > p {
     font-size: 16px;
     letter-spacing: 2px;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
-    padding: 10px;
-    height: 200px;
+    justify-content: center;
+    padding: 50px;
+    height: 230px;
     width: 100%;
-    background:  rgba(0, 0, 0, 0.40);
+    background:  rgba(0, 0, 0, 0.35);
 }
 
 .what-we-offer {
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 330px;
     background: rgba(0, 0, 0, 0.40);
     width: 100%;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    justify-content: space-around;
+
 
 }
 
@@ -286,10 +287,21 @@ p {
 .delivery-icons { 
     display: flex;
     flex-direction: column;
-    height:150px; 
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+    
+    
    
 }
-.icon-size 
+.icon-size {
+width: auto;
+height: 23px;
+}
+
+
+
 .footer {
     display: flex;
     height: 95px;
@@ -297,8 +309,9 @@ p {
     background-color: whitesmoke;
     width: 100%;
     color: darkgreen;
-    align-items: center;
+    text-align: center;
     justify-content: center;
+
     border-top: solid darkgreen 15px;
 }
 

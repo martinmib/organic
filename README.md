@@ -30,3 +30,13 @@ gitpod /workspace/organic (main) $ git commit -m "restructured css back to mobil
 [main 31e4a0b] restructured css back to mobile view
  3 files changed, 228 insertions(+), 189 deletions(-)
  rewrite index.html (61%)
+
+
+
+ add options in the future of an upto date menu 
+
+
+ chat bot for ordering as well possability 
+
+ hamburger got code from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/#sec-vid
+ 
