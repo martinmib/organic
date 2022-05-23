@@ -13,11 +13,9 @@ font-family: 'Tinos', serif; */
 
 body {
     display: flex;
+    flex: 1;
     font-family: 'Cormorant Infant', serif;
     font-size: 16px;
-
-
-
 }
 
 .container {
@@ -27,6 +25,7 @@ body {
 
 h1 h2 {
     font-family: 'Source Serif Pro', serif;
+    text-transform: uppercase;
 }
 
 p {
@@ -38,7 +37,7 @@ p {
 .navbar {
     display: flex;
     width: 100%;
-    text-align: center;
+
     flex-direction: column;
     background-color: white;
     height: 140px;
@@ -46,7 +45,11 @@ p {
     margin: auto;
     padding: 2px;
     border-bottom: solid darkgreen 50px;
-   
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+
 
 }
 
@@ -74,6 +77,7 @@ p {
     list-style: none;
     margin: 0 25px;
     font-weight: 800;
+
 }
 
 .navbar ul li a {
@@ -84,6 +88,7 @@ p {
     justify-content: space-around;
     font-size: 80%;
     letter-spacing: 2px;
+
 }
 
 .navbar ul li a:hover {
@@ -91,13 +96,16 @@ p {
     background: white;
 }
 
-.menu { 
+.menu {
     display: flex;
     flex-direction: row;
     width: 100%;
     font-size: 20px;
     font-weight: 600;
-    
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
 }
 
 
@@ -119,7 +127,7 @@ p {
 
 .hero {
     width: 100%;
-    height: 270px;
+    height: 350px;
     background-image: url('../CSS/media/collegefruit/juices-standing.jpeg');
     background-position: top;
     background-size: cover;
@@ -166,7 +174,7 @@ p {
     text-align: center;
     margin: 5px 0 5px 0;
     text-transform: uppercase;
-           
+
 
 }
 
@@ -179,8 +187,8 @@ p {
     width: 100%;
     align-items: center;
     margin: auto;
-   
-   
+
+
 
 }
 
@@ -245,20 +253,18 @@ p {
     text-align: center;
     align-items: center;
     justify-content: space-around;
-   
-
 }
 
-.we-do > h2 { 
+.we-do>h2 {
     letter-spacing: 3px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    
-    
+
+
 }
 
-.we-do > p {
+.we-do>p {
     font-size: 16px;
     letter-spacing: 2px;
     justify-content: space-around;
@@ -267,7 +273,7 @@ p {
     padding: 50px;
     height: 230px;
     width: 100%;
-    background:  rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.35);
 }
 
 .what-we-offer {
@@ -284,20 +290,21 @@ p {
 }
 
 
-.delivery-icons { 
+.delivery-icons {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     letter-spacing: 3px;
     padding: 10px;
-    
-    
-   
+
+
+
 }
+
 .icon-size {
-width: auto;
-height: 23px;
+    width: auto;
+    height: 23px;
 }
 
 
@@ -336,3 +343,42 @@ height: 23px;
     color: white;
     background: darkgreen;
 }
+
+
+/* products begin */
+
+
+.products-background {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../CSS/media/collegefruit/Background-products.jpg');
+    width: 100%;
+    height: 1000px;
+    align-items: center;
+    justify-content: space-round;
+    background-position: top;
+    background-size: cover;
+    padding: 15px;
+    color: white;
+
+}
+
+.products-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    
+
+}
+
+.products-list-item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: solid white 4px;
+}
+

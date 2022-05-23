@@ -39,4 +39,8 @@ gitpod /workspace/organic (main) $ git commit -m "restructured css back to mobil
  chat bot for ordering as well possability 
 
  hamburger got code from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/#sec-vid
+
+ tried but didnt have time will do again 
+
+ https://www.istockphoto.com/search/2/image?family=creative&phrase=fruit%20
  
