@@ -401,7 +401,9 @@ p {
 
 #jucie1{
      background: url("../CSS/media/collegefruit/small-box.jpg");
+     
 }
+
 .fruit { 
     background: rgba(0, 0, 0, 0.35);
     display: flex;
@@ -464,3 +466,7 @@ p {
     font-size: 25px;
 }
 /*contact us end*/
+
+
+/*-- gallery starts here */
+  
