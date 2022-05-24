@@ -285,7 +285,7 @@ p {
     text-align: center;
     justify-content: center;
     padding: 30px;
-    height: 230px;
+    height: 100mvh;
     width: 100%;
     background: rgba(0, 0, 0, 0.35);
 }
@@ -293,10 +293,11 @@ p {
 .what-we-offer {
     display: flex;
     flex-direction: column;
-    height: 330px;
+    height: 100mvh;
     background: rgba(0, 0, 0, 0.35);
     width: 100%;
     color: white;
+   
     text-transform: uppercase;
     text-align: center;
 
@@ -325,7 +326,7 @@ p {
 
 .footer {
     display: flex;
-    height: 95px;
+    height: 100mvh;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -352,6 +353,7 @@ p {
     font-size: 250%;
     font-weight: 600;
     padding: 20px 20px 20px 20px;
+    margin: 15px 15px 15px 15px; 
 }
 
 .footer ul li a:hover {
