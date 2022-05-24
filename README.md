@@ -46,3 +46,7 @@ gitpod /workspace/organic (main) $ git commit -m "restructured css back to mobil
  
 
  trying to figure out how to place the boxes center
+
+ https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+
+ https://www.youtube.com/watch?v=4U_AAGHzTok
