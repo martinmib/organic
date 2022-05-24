@@ -42,6 +42,8 @@ h2 {
 p {
     font-family: 'Tinos', serif;
     font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
 
 
 }
@@ -436,58 +438,72 @@ p {
 .contact-background {
     display: flex;
     height: 100mvh;
-    max-width: 1980px;
+    width: 100%;
     background: url('../CSS/media/collegefruit/mixed-juices.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     justify-items: center;
     align-items: center;
-    padding: 40px;
+    
     color: white;
     padding: 80px;
 }
+
 .contact-us{
     display: flex;
-    flex:1;
+    flex-wrap: wrap;
+    justify-items: center;
+    flex:1;}
+
+    .map-div {
+        display: flex;
+        flex-direction: column;
+        padding:60px;
+    }
+    .map-div p {
+        display: flex;
+        flex-direction: column;
+    }
+    /*
     flex-wrap: wrap;
     flex-direction:column;
     text-align: center;
     justify-items: center;
     align-content: center;
+    background-size: cover;
     padding: 25px;
-    
-
-    
-    
-    
-
 }
+*/
 .background-shadow {
     display: flex;
-
-    flex-direction: column;
     background: rgba(0, 0, 0, 0.40);
+    min-width: 380px;
     max-width: 1980%;
     height: 100mvh;
+    padding: 111px;
     align-items: center;
-    justify-items: center;
-    padding: 30px;
+    
 
 }
 
-.contact-us {
-
-    margin: 3px white solid;
-
-}
 
 .labels {
     font-size: 20px;
+    
 }
-
+/*
 .container-map {
     width: 100%;
     height: 100vh;
+}
+.container-map h1 {
+     color: white;
+     margin-bottom: 60px;
+}
+iframe { 
+    width:90%;
+    height: 500px;
+    border: 5px solid green;
 }
 
 /*contact us end*/
