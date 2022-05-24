@@ -447,8 +447,16 @@ p {
     padding: 80px;
 }
 .contact-us{
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+    flex-direction:column;
     text-align: center;
     justify-items: center;
+    align-content: center;
+    padding: 25px;
+    
+
     
     
     
@@ -456,9 +464,10 @@ p {
 }
 .background-shadow {
     display: flex;
+
     flex-direction: column;
     background: rgba(0, 0, 0, 0.40);
-    width: 100%;
+    max-width: 1980%;
     height: 100mvh;
     align-items: center;
     justify-items: center;
@@ -510,3 +519,5 @@ p {
     transform: scale(1.5);
     justify-content: center;
 }
+
+

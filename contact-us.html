@@ -28,107 +28,124 @@
                 <li class="item"><a href="products.html">Products</a></li>
                 <li class="item"><a href="gallery.html">Gallery</a></li>
                 <li class="item"><a href="contact-us.html" class="active">Contact</a></li>
-                
+
 
             </ul>
         </div>
-        
+
         <!--navbar-->
         <!--see notes for credit to-->
         <div>
             <div class="contact-background">
-                
+
                 <div class="background-shadow">
-                <div class="contact-us">
-                    <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
-                        
-                        <!--script for form starts here-->
-                        <script type="text/javascript">
-                            function ValidateForm(frm) {
-                                if (frm.Name.value == "") {
-                                    alert('Name is required.');
-                                    frm.Name.focus();
-                                    return false;
+                    <div class="contact-us">
+                        <form action="//submit.form" id="ContactUs100" method="post"
+                            onsubmit="return ValidateForm(this);">
+
+                            <!--script for form starts here-->
+                            <script type="text/javascript">
+                                function ValidateForm(frm) {
+                                    if (frm.Name.value == "") {
+                                        alert('Name is required.');
+                                        frm.Name.focus();
+                                        return false;
+                                    }
+                                    if (frm.FromEmailAddress.value == "") {
+                                        alert('Email address is required.');
+                                        frm.FromEmailAddress.focus();
+                                        return false;
+                                    }
+                                    if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value
+                                        .indexOf(
+                                            ".") < 1) {
+                                        alert('Please enter a valid email address.');
+                                        frm.FromEmailAddress.focus();
+                                        return false;
+                                    }
+                                    if (frm.Comments.value == "") {
+                                        alert('Please enter comments or questions.');
+                                        frm.Comments.focus();
+                                        return false;
+                                    }
+                                    return true;
                                 }
-                                if (frm.FromEmailAddress.value == "") {
-                                    alert('Email address is required.');
-                                    frm.FromEmailAddress.focus();
-                                    return false;
-                                }
-                                if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(
-                                        ".") < 1) {
-                                    alert('Please enter a valid email address.');
-                                    frm.FromEmailAddress.focus();
-                                    return false;
-                                }
-                                if (frm.Comments.value == "") {
-                                    alert('Please enter comments or questions.');
-                                    frm.Comments.focus();
-                                    return false;
-                                }
-                                return true;
-                            }
-                        </script>
-                        <!--script for form ends here-->
-                        
-                        <table style="width:100%;max-width:800px;border:0;" cellpadding="8" cellspacing="5">
-                            <tr>
+                            </script>
+                            <!--script for form ends here-->
+
+                            <table style="width:100%;max-width:800px;border:0;" cellpadding="8" cellspacing="5">
+                                <tr>
                                 <tr>
                                     <label class="labels" for="Name">NAME:</label>
                                 </tr>
+                                <br>
                                 <tr>
-                                    <input name="Name" type="text" maxlength="60" style="width:100%;max-width:500px;height:100mvh"
-                                    placeholder="full name" alt="name"/>
+                                    <input name="Name" type="text" maxlength="60"
+                                        style="width:100%;max-width:500px;height:30px" placeholder="full name"
+                                        alt="name" />
                                 </tr>
-                            </tr>
-                            <tr>
+                                </tr>
+                                <br>
+                                <tr>
                                 <tr>
                                     <label class="labels" for="PhoneNumber" alt="phone-number">PHONE NUMBER:</label>
                                 </tr>
+                                <br>
                                 <tr>
                                     <input name="PhoneNumber" type="text" maxlength="43"
-                                        style="width:100%;max-width:500px;height:30px;" placeholder="phone Number" alt="Phone Number"/>
-                                </td>
-                            </tr>
-                            <tr>
+                                        style="width:100%;max-width:500px;height:30px;" placeholder="phone Number"
+                                        alt="Phone Number" />
+                                    </td>
+                                </tr>
+                                <br>
+                                <tr>
                                 <tr>
                                     <label class="labels" for="FromEmailAddress">EMAIL ADDRESS:</label>
                                 </tr>
+                                <br>
                                 <tr>
                                     <input name="FromEmailAddress" type="text" maxlength="90"
                                         style="width:100%;max-width:500px;height:30px;" placeholder="email address" />
                                 </tr>
-                            </tr>
-                            <tr>
+                                </tr>
+                                <br>
+                                <tr>
                                 <tr>
                                     <label class="labels" for="Comments">COMMENTS:</label>
                                 </tr>
+                                <br>
                                 <tr>
                                     <textarea name="Comments" rows="7" cols="40"
-                                        style="width:100%;max-width:500px;height:400px" placeholder="comment"></textarea>
+                                        style="width:100%;max-width:500px;height:400px"
+                                        placeholder="comment"></textarea>
                                 </tr>
-                            </tr>
-                            <tr>
+                                </tr>
+                                <br>
+                                <tr>
                                 <tr>
                                     * - required fields
                                 </tr>
+                                <br>
                                 <td>
 
-                                    <input name="skip_Submit" type="submit" value="Submit" style="width:80px;height:25px; font-size: 20px;"/>
+                                    <input name="skip_Submit" type="submit" value="Submit"
+                                        style="width:80px;height:25px; font-size: 20px;" />
                                     <div style="float:right"><a href="https://www.100forms.com" id="lnk100"
                                             title="form to email">form </a></div>
                                     <script src="https://www.100forms.com/js/FORMKEY:ESKTGEQ6M2FT/SEND:your@email.com"
                                         type="text/javascript"></script>
                                 </td>
-                            </tr>
-                        </table>
-                   
-                    </form>
-                    <div class="container-map">
-                        <h1>Location Map</h1>
+                                </tr>
+                                <br>
+                            </table>
+
+                        </form>
+                        <div class="container-map">
+                            <h1>Location Map</h1>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4626.3532830961485!2d-6.667467095013688!3d53.40057895618448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1653425657393!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
         <!--end of sourced code-->

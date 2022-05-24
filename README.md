@@ -50,3 +50,6 @@ gitpod /workspace/organic (main) $ git commit -m "restructured css back to mobil
  https://developers.google.com/maps/documentation/javascript/adding-a-google-map
 
  https://www.youtube.com/watch?v=4U_AAGHzTok
+
+ bug with images not centering 
+ 
