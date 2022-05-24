@@ -470,3 +470,25 @@ p {
 
 /*-- gallery starts here */
   
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: none;
+    width: 100%;
+    background: url('assets/CSS/media/collegefruit/istockphoto-1315974167-612x612.jpg') no-repeat center;
+}
+.gallery img {
+    transition: 1s;
+    width: 200px;
+    height: 180px;
+    border: darkgreen solid 2px;
+
+}
+.gallery img:hover { 
+    filter: greyscale(100%);
+    transform: scale(1.5);
+    justify-content: center;
+}
+    
