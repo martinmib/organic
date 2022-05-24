@@ -139,11 +139,12 @@ p {
 
 .hero {
     width: 100%;
-    height: 350px;
+    min-height: 400px;
+    height: 600px;
     background-image: url('../CSS/media/collegefruit/juices-standing.jpeg');
     background-position: top;
     background-size: cover;
-    flex-grow: 2;
+    flex: 2;
 }
 
 .heading {
@@ -194,7 +195,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 170px;
+    height: 175px;
     background: rgba(0, 0, 0, 0.35);
     width: 100%;
     align-items: center;
@@ -208,9 +209,6 @@ p {
     width: 50px;
     height: 50px;
     background-size: cover;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
     border-radius: 50%;
     padding: 30px;
     margin: auto;
