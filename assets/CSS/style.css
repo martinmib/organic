@@ -13,7 +13,6 @@ font-family: 'Tinos', serif; */
 
 body {
     display: flex;
-
     font-family: 'Cormorant Infant', serif;
     font-size: 16px;
     width: 100%;
@@ -162,7 +161,6 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-
     width: 100%;
     padding-bottom: 15px;
     margin: auto;
@@ -289,7 +287,6 @@ p {
 
 
 }
-
 
 .delivery-icons {
     display: flex;
@@ -462,9 +459,6 @@ p {
 .labels {
     font-size: 20px;
 }
-
-
-
 /*contact us end*/
 
 
@@ -491,11 +485,4 @@ p {
 .gallery img:hover {
     transform: scale(1.5);
     justify-content: center;
-}
-
-@media (max-width: 330px) {
-    body {
-        max-width: 100%;
-
-    }
 }
