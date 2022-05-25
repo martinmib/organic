@@ -370,44 +370,46 @@ p {
     flex-direction: column;
     background: url('../CSS/media/collegefruit/Background-products.jpg') no-repeat fixed;
     width: 100%;
-    height: 2000px;
+    height: 100mvh;
     align-items: center;
     justify-content: space-between;
     background-position: center;
     background-size: cover;
-    padding: 50px;
-    color: white;
+   
 
 }
+/*
 
 .products-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    background: rgba(0, 0, 0, 0.35);
     padding: 10px 10px 10px 10px;
 
 
 
 }
-
+/*
 .products-list-item {
     display: flex;
     flex-wrap: wrap;
     color: white;
     height: 150px;
-    width: 100%;
+    width: 170px;
     padding-top: 20px;
     border: solid white 4px;
     background-size: contains;
 
 }
 
-#jucie1 {
+.jucie1 {
     background: url("../CSS/media/collegefruit/small-box.jpg");
 
 }
-
+/*
 .fruit {
     background: rgba(0, 0, 0, 0.35);
     display: flex;
@@ -433,91 +435,91 @@ p {
 }
 
 /* products end */
-/* contact us start */
+    /* contact us start */
 
-.contact-background {
-    display: flex;
-    height: 100mvh;
-    width: 100%;
-    background: url('../CSS/media/collegefruit/mixed-juices.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
+    .contact-background {
+        display: flex;
+        height: 100mvh;
+        width: 100%;
+        background: url('../CSS/media/collegefruit/mixed-juices.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
 
-}
+    }
 
-.background-shadow {
-    display: flex;
-    background: rgba(0, 0, 0, 0.40);
-    width: 100%;
-    height: 100mvh;
-    align-items: center;
-    justify-items: center;
-    background-position: center;
-    padding: 30px;
-    justify-content: space-between;
-
-
-}
-
-.contact-us {
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    align-items: center;
-    padding-left: 25px;
-    margin: auto;
-    
-}
-
-.map-div {
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
-    flex: 1;
-}
-
-.map-div p {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.labels {
-    font-size: 20px;
-}
+    .background-shadow {
+        display: flex;
+        background: rgba(0, 0, 0, 0.40);
+        width: 100%;
+        height: 100mvh;
+        align-items: center;
+        justify-items: center;
+        background-position: center;
+        padding: 30px;
+        justify-content: space-between;
 
 
-/*contact us end*/
+    }
+
+    .contact-us {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        padding-left: 25px;
+        margin: auto;
+
+    }
+
+    .map-div {
+        display: flex;
+        flex-direction: column;
+        padding: 60px;
+        flex: 1;
+    }
+
+    .map-div p {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .labels {
+        font-size: 20px;
+    }
 
 
-/*-- gallery starts here */
+    /*contact us end*/
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 40px;
-    margin: none;
-    width: 100%;
-    background: url('assets/CSS/media/collegefruit/istockphoto-1315974167-612x612.jpg') no-repeat center;
-}
 
-.gallery img {
-    transition: 1s;
-    width: 200px;
-    height: 180px;
-    margin: 10px;
-    border: darkgreen solid 2px;
+    /*-- gallery starts here */
 
-}
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 40px;
+        margin: none;
+        width: 100%;
+        background: url('assets/CSS/media/collegefruit/istockphoto-1315974167-612x612.jpg') no-repeat center;
+    }
 
-.gallery img:hover {
-    filter: greyscale(100%);
-    transform: scale(1.5);
-    justify-content: center;
-}
+    .gallery img {
+        transition: 1s;
+        width: 200px;
+        height: 180px;
+        margin: 10px;
+        border: darkgreen solid 2px;
+
+    }
+
+    .gallery img:hover {
+        filter: greyscale(100%);
+        transform: scale(1.5);
+        justify-content: center;
+    }
