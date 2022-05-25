@@ -44,7 +44,7 @@
                             onsubmit="return ValidateForm(this);">
 
                             <!--script for form starts here-->
-                            <script type="text/javascript">
+                            <script >
                                 function ValidateForm(frm) {
                                     if (frm.Name.value == "") {
                                         alert('Name is required.');
@@ -75,27 +75,27 @@
                             <br>
 
                             <table id="table" style="width:100%;max-width:800px;border:0;" cellpadding="8" cellspacing="5">
-                                <tr>
+                                
                                 <tr>
                                     <label class="labels" for="Name">NAME:</label>
                                 </tr>
                                 <br>
                                 <tr>
                                     <input name="Name" type="text" maxlength="60"
-                                        style="width:100%;max-width:500px;height:30px" placeholder="full name"
+                                        style="width:100%;max-width:500px;height:30px" 
                                         alt="name" />
                                 </tr>
-                                </tr>
+                                
                                 <br>
-                                <tr>
+                            
                                 <tr>
                                     <label class="labels" for="PhoneNumber" alt="phone-number">PHONE NUMBER:</label>
                                 </tr>
                                 <br>
                                 <tr>
                                     <input name="PhoneNumber" type="text" maxlength="43"
-                                        style="width:100%;max-width:500px;height:30px;" placeholder="phone Number"
-                                        alt="Phone Number" />
+                                        style="width:100%;max-width:500px;height:30px;" 
+                                        alt="Phone Number"/>
                                     </td>
                                 </tr>
                                 <br>
@@ -106,7 +106,7 @@
                                 <br>
                                 <tr>
                                     <input name="FromEmailAddress" type="text" maxlength="90"
-                                        style="width:100%;max-width:500px;height:30px;" placeholder="email address" />
+                                        style="width:100%;max-width:500px;height:30px;"/>
                                 </tr>
                                 </tr>
                                 <br>
@@ -192,8 +192,7 @@
             <!-- division with paragraph with copyright content finish-->
         </footer>
         <!-- footer finish-->
-        <!--java script-->
-        <script src="script.js"></script>
+        
     </div>
 </body>
 <!--body section finish-->
