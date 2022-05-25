@@ -13,7 +13,7 @@ font-family: 'Tinos', serif; */
 
 body {
     display: flex;
-    
+
     font-family: 'Cormorant Infant', serif;
     font-size: 16px;
     width: 100%;
@@ -52,7 +52,6 @@ p {
 .navbar {
     display: flex;
     width: 100%;
-
     flex-direction: column;
     background-color: white;
     height: 140px;
@@ -130,15 +129,6 @@ p {
 .active {
     border-bottom: 2px solid white;
 }
-/*
-.background {
-    width: 100%;
-    height: 970px;
-    background-color: white;
-    background-position: center;
-    background-size: cover;
-}
-*/
 .hero {
     width: 100%;
     min-height: 400px;
@@ -172,7 +162,7 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
     width: 100%;
     padding-bottom: 15px;
     margin: auto;
@@ -261,7 +251,7 @@ p {
     flex: 1;
     height: 350px;
     color: white;
-    
+
     width: 100%;
     text-align: center;
     align-items: center;
@@ -362,11 +352,12 @@ p {
 /* products begin */
 
 .display {
-     display: flex;
-     flex-direction: column;
-    
-     
+    display: flex;
+    flex-direction: column;
+
+
 }
+
 .products-background {
     display: flex;
     flex-direction: column;
@@ -396,12 +387,14 @@ p {
     margin: 25px;
 
 }
+
 .items {
     width: 340px;
     padding: 20px;
-   text-align: center;
+    text-align: center;
 
 }
+
 .items img {
     width: 280px;
     height: 260px;
@@ -411,97 +404,98 @@ p {
 
 
 /* products end */
-    /* contact us start */
+/* contact us start */
 
-    .contact-background {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background: url('../CSS/media/collegefruit/mixed-juices.jpg') no-repeat;
-        background-position: center;
-        background-size: cover;
-        color: white;
-        padding: 98px;
+.contact-background {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url('../CSS/media/collegefruit/mixed-juices.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 98px;
+
+}
+
+.background-shadow {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.40);
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    background-position: center;
+    padding: 80px;
+    justify-content: space-between;
+
+
+}
+
+.contact-us {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 25px;
+    margin: auto;
+}
+
+.map-div {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    flex: 1;
+}
+
+.map-div p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.labels {
+    font-size: 20px;
+}
+
+
+
+/*contact us end*/
+
+
+/*-- gallery starts here */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    width: 100%;
+    background: url('assets/CSS/media/collegefruit/istockphoto-1315974167-612x612.jpg') no-repeat center;
+}
+
+.gallery img {
+    transition: 1s;
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    border: darkgreen solid 2px;
+
+}
+
+.gallery img:hover {
+    transform: scale(1.5);
+    justify-content: center;
+}
+
+@media (max-width: 330px) {
+    body {
+        max-width: 100%;
 
     }
-
-    .background-shadow {
-        display: flex;
-        flex-direction: column;
-        background: rgba(0, 0, 0, 0.40);
-        width: 100%;
-        align-items: center;
-        justify-items: center;
-        background-position: center;
-        padding: 80px;
-        justify-content: space-between;
-
-
-    }
-
-    .contact-us {
-
-        display: flex;
-        flex-wrap: wrap;
-        background-size: cover;
-        justify-content: center;
-        justify-items: center;
-        text-align: center;
-        align-items: center;
-        padding-left: 25px;
-        margin: auto;
-    }
-
-    .map-div {
-        display: flex;
-        flex-direction: column;
-        padding: 60px;
-        flex: 1;
-    }
-
-    .map-div p {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-
-    .labels {
-        font-size: 20px;
-    }
-    
-
-
-    /*contact us end*/
-
-
-    /*-- gallery starts here */
-
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 40px;
-        width: 100%;
-        background: url('assets/CSS/media/collegefruit/istockphoto-1315974167-612x612.jpg') no-repeat center;
-    }
-
-    .gallery img {
-        transition: 1s;
-        width: 200px;
-        height: 180px;
-        margin: 10px;
-        border: darkgreen solid 2px;
-
-    }
-
-    .gallery img:hover {
-        transform: scale(1.5);
-        justify-content: center;
-    }
-
-    @media (max-width: 330px) {
-        .body {
-            width: 330px;
-        }
-    }
+}
