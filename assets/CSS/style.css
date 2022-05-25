@@ -13,11 +13,12 @@ font-family: 'Tinos', serif; */
 
 body {
     display: flex;
-    flex: 1;
+    flex-direction: column;
     font-family: 'Cormorant Infant', serif;
     font-size: 16px;
     max-width: 1920px;
     max-height: 5000px;
+    
 }
 
 
@@ -364,29 +365,34 @@ p {
 
 /* products begin */
 
-
+.display {
+     display: flex;
+     flex-direction: column;
+    
+     
+}
 .products-background {
     display: flex;
     flex-direction: column;
-    background: url('../CSS/media/collegefruit/Background-products.jpg') no-repeat fixed;
-    width: 100%;
+    width: 100mvw;
     height: 100mvh;
-    align-items: center;
-    justify-content: space-between;
+    background: url('../CSS/media/collegefruit/Background-products.jpg') no-repeat fixed;
     background-position: center;
     background-size: cover;
     color: white;
 }
-
-
-
+/*
+     align-items: center;
+    justify-content: space-between;
 .product{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
 
-}
+}*/
 
 .products-h1 {
     display: flex;
@@ -403,54 +409,26 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    justify-content: space-around;
+    text-align: centers;
+    padding: 40px;
+    margin: 40px;
+
 }
 .items {
-    width: 250px; 
+    width: 340px;
+    padding: 25px;
+   text-align: center;
+   padding: 20px;
 
 }
-/*
-.products-list-item {
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-    height: 100px;
-    width: 100%;
-    padding: 20px;
-    border: solid white 4px;
-    background-size: contains;
-
-}
-/*
-
-.jucie1 {
-    background: url("../CSS/media/collegefruit/small-box.jpg");
-
-}
-/*
-.fruit {
-    background: rgba(0, 0, 0, 0.35);
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
+.items img {
+    width: 280px;
+    height: 260px;
     align-items: center;
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-    width: 100%;
-    height: 1000px;
+    border: 2px darkgreen solid;
 }
 
-.juices {
-    background: rgba(0, 0, 0, 0.35);
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-    width: 100%;
-    height: 1000px;
-}
 
 /* products end */
     /* contact us start */
@@ -468,6 +446,7 @@ p {
 
     .background-shadow {
         display: flex;
+        flex-direction: column;
         background: rgba(0, 0, 0, 0.40);
         width: 100%;
         height: 100mvh;
