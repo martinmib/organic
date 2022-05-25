@@ -388,13 +388,25 @@ p {
 
 }
 
-.products-list {
+.products-h1 {
     display: flex;
     flex-wrap: no-wrap;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     padding: 40px;
+
+}
+
+.product-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.items {
+    width: 250px; 
 
 }
 /*
