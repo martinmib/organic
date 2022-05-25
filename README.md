@@ -1,3 +1,52 @@
+# ORGANIC
+(Developer: Martin Brilly)
+
+![Mockup image](come back to this after)
+
+[Live Webpage](https://martinmib.github.io/organic/)
+
+## Table of Content
+
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 15th may deleted most work to try again as it is not doing what i wantit to do. 
 
 restarted by cleaning up what i dont need 
