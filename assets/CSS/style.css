@@ -499,3 +499,9 @@ p {
         transform: scale(1.5);
         justify-content: center;
     }
+
+    @media (max-width: 330px) {
+        .body {
+            width: 330px;
+        }
+    }
