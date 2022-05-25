@@ -406,12 +406,12 @@ p {
 .contact-background {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background: url('../CSS/media/collegefruit/mixed-juices.jpg') no-repeat;
     background-position: center;
+    justify-content: center;
     background-size: cover;
     color: white;
-    padding: 98px;
+    
 
 }
 
@@ -419,12 +419,12 @@ p {
     display: flex;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.40);
-    width: 100%;
+    max-width: 100%;
     align-items: center;
     justify-items: center;
     background-position: center;
     padding: 80px;
-    justify-content: space-between;
+    justify-content: space-around;
 
 
 }
@@ -434,19 +434,18 @@ p {
     display: flex;
     flex-wrap: wrap;
     background-size: cover;
-    justify-content: center;
+    justify-content: space-between;
     justify-items: center;
     text-align: center;
     align-items: center;
-    padding-left: 25px;
-    margin: auto;
+    padding-left: 30px;
+    
 }
 
 .map-div {
     display: flex;
     flex-direction: column;
-    padding: 60px;
-    flex: 1;
+    padding: 25px;
 }
 
 .map-div p {
