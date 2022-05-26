@@ -81,8 +81,84 @@ finish
 ### Design Choices
 
 ### Color
+- Dark Green
+- White
+- backgroound shade of rgba(0,0,0,0.35)
+
+All colours above were used as simple and basic colors on the basis of keeping it as close to the general relation of the meaning of the word organic.
+
+Dictionary
+Definitions from Oxford Languages
+
+organic
+
+1.
+relating to or derived from living matter.
+"organic soils"
+Similar:
+living
+live
+animate
+biological
+natural
+biotic
+Opposite:
+inorganic
+2.
+(of food or farming methods) produced or involving production without the use of chemical fertilizers, pesticides, or other artificial chemicals.
+"organic farming"
+Similar:
+pesticide-free
+additive-free
+chemical-free
+non-chemical
+natural
+3.
+PHYSIOLOGY
+relating to a bodily organ or organs.
+4.
+denoting or characterized by a harmonious relationship between the elements of a whole.
+"the organic unity of the integral work of art"
+Similar:
+structured
+organized
+coherent
+integrated
+coordinated
+ordered
+systematic
+systematized
+methodical
+orderly
+consistent
+harmonious
+methodized
+Opposite:
+disparate
+noun
+plural noun: organics; noun: organic
+1.
+a food produced by organic farming.
+2.
+an organic chemical compound.
 
 ### Fonts
+
+Logo:
+font-family: 'Cormorant Infant', serif;: 
+
+I used the cormorant infant font, with a backup of serif. I liked the slim simple design on the basis that i dint want to overcrowd the navigation bar on the understanding of the placement of the <a> selectors being under neath. 
+
+H1,H2:
+
+font-family: 'Source Serif Pro', serif;
+
+I used the 'Source Serif Pro' font, with a backup of serif. The slim design was neat and simple. Probably could be thicker for hard of sight. 
+
+P:
+font-family: 'Tinos', serif; */
+
+
 
 ### Structure
 
