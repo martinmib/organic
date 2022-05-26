@@ -197,6 +197,15 @@ font-family: 'Tinos', serif; */
 <details><summary>Home</summary>
 <img src="docs/images/index-wireframe.png">
 </details>
+<details><summary>Products</summary>
+<img src="docs/images/index-wireframe.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/images/index-wireframe.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/images/index-wireframe.png">
+</details>
 
 
 
