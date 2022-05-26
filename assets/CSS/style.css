@@ -5,6 +5,9 @@ font-family: 'Cormorant Infant', serif;
 font-family: 'Source Serif Pro', serif;
 font-family: 'Tinos', serif; */
 
+@media screen {max-width: 1920px;
+    
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,10 +18,9 @@ body {
     display: flex;
     font-family: 'Cormorant Infant', serif;
     font-size: 16px;
-    width: 100%;
-    max-width: 1920px;
-    max-height: 5000px;
-}
+    max-width: 2000px;
+   
+}}
 
 
 
@@ -485,3 +487,490 @@ p {
     transform: scale(1.5);
     justify-content: center;
 }
+
+/*
+@media screen and (max-width:1920px) { 
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        font-family: 'Cormorant Infant', serif;
+        font-size: 16px;
+        max-width: 1920px;
+        max-height: 5000px;
+    }
+    
+    
+    /*
+    
+    h1 {
+        font-family: 'Source Serif Pro', serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    
+    h2 {
+        font-family: 'Source Serif Pro', serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    p {
+        font-family: 'Tinos', serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-align: center;
+    
+    
+    }
+    
+    .navbar {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        height: 140px;
+        justify-content: space-between;
+        align-content: center;
+        padding: 2px;
+        border-bottom: solid darkgreen 50px;
+    
+    
+    
+    
+    }
+    
+    
+    .logo {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: darkgreen;
+        padding: 1px;
+        margin: 5px;
+        letter-spacing: 4px;
+    }
+    
+    .logo a {
+        color: darkgreen;
+        text-decoration: none;
+        margin-left: 20px;
+    
+    }
+    
+    
+    .navbar ul li {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin: 0 25px;
+        font-weight: 800;
+    
+    }
+    
+    .navbar ul li a {
+        display: flex;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        justify-content: space-around;
+        font-size: 80%;
+        letter-spacing: 3px;
+        font-weight: 600;
+    
+    }
+    
+    .navbar ul li a:hover {
+        color: darkgreen;
+        background: white;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        font-size: 25px;
+        font-weight: 600;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+    
+    
+    
+    
+    .active {
+        border-bottom: 2px solid white;
+    }
+    .hero {
+        width: 100%;
+        min-height: 400px;
+        height: 600px;
+        background-image: url('../CSS/media/collegefruit/juices-standing.jpeg');
+        background-position: top;
+        background-size: cover;
+        flex: 2;
+    }
+    
+    .heading {
+        display: flex;
+        align-content: flex-start;
+        font-size: 20px;
+        color: darkgreen;
+        width: 100%;
+        background-color: white;
+        height: 80px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-top: solid darkgreen 15px;
+        border-bottom: solid darkgreen 15px;
+    
+    }
+    
+    .fruit-images {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        padding-bottom: 15px;
+        margin: auto;
+        height: 290px;
+    }
+    
+    
+    .center-text {
+        width: 100%;
+        height: 25px;
+        color: white;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin: 5px 0 5px 0;
+        text-transform: uppercase;
+    
+    
+    }
+    
+    .fruitbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 175px;
+        background: rgba(0, 0, 0, 0.35);
+        width: 100%;
+        align-items: center;
+        margin: auto;
+    
+    
+    
+    }
+    
+    .size {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        border-radius: 50%;
+        padding: 30px;
+        margin: auto;
+    }
+    
+    .strawberry {
+    
+        background-image: url('../CSS/media/collegefruit/strawberry.jpg');
+    }
+    
+    
+    .blueberry {
+        background-image: url('../CSS/media/collegefruit/blueberry.jpg');
+    
+    }
+    
+    .banana {
+        background-image: url('../CSS/media/collegefruit/bannana.jpg');
+    
+    }
+    
+    .grapes {
+        background-image: url('../CSS/media/collegefruit/grapes.jpg');
+    
+    
+    }
+    
+    .raspberry {
+        background-image: url('../CSS/media/collegefruit/raspberry.jpg');
+    }
+    
+    .orange {
+        background-image: url('../CSS/media/collegefruit/orange.jpg');
+    }
+    
+    .apple {
+        background-image: url('../CSS/media/collegefruit/apple.jpg');
+    }
+    
+    .passion-fruit {
+        background-image: url('../CSS/media/collegefruit/passion-fruit.jpg');
+    }
+    
+    
+    .what-we-do {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        height: 350px;
+        color: white;
+    
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .we-do>h2 {
+        letter-spacing: 3px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    
+    
+    }
+    
+    .we-do>p {
+        font-size: 16px;
+        letter-spacing: 2px;
+        justify-content: space-around;
+        text-align: center;
+        justify-content: center;
+        padding: 30px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.35);
+    }
+    
+    .what-we-offer {
+        display: flex;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.35);
+        width: 100%;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+    
+    
+    }
+    
+    .delivery-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 3px;
+        padding: 10px 0 10px 0;
+    
+    
+    
+    
+    }
+    
+    .icon-size {
+        width: auto;
+        height: 23px;
+    }
+    
+    
+    
+    .footer {
+        display: flex;
+        height: 200px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        background-color: whitesmoke;
+        width: 100%;
+        color: darkgreen;
+    
+    
+        border-top: solid darkgreen 15px;
+    }
+    
+    .footer ul li {
+    
+        list-style: none;
+        display: inline-block;
+        justify-content: space-around;
+    
+    }
+    
+    .footer ul li a {
+        text-decoration: none;
+        color: green;
+        text-transform: uppercase;
+        font-size: 250%;
+        font-weight: 600;
+        padding: 20px 20px 20px 20px;
+        margin: 15px 15px 15px 15px;
+    }
+    
+    .footer ul li a:hover {
+        color: white;
+        background: darkgreen;
+    }
+    
+    
+    /* products begin */
+    
+    .display {
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    
+    .products-background {
+        display: flex;
+        flex-direction: column;
+        background: url('../CSS/media/collegefruit/Background-products.jpg') no-repeat fixed;
+        background-position: center;
+        background-size: cover;
+        color: white;
+    }
+    
+    .products-h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 40px;
+    
+    }
+    
+    .product-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        padding: 25px;
+        margin: 25px;
+    
+    }
+    
+    .items {
+        width: 340px;
+        padding: 20px;
+        text-align: center;
+    
+    }
+    
+    .items img {
+        width: 280px;
+        height: 260px;
+        align-items: center;
+        border: 2px darkgreen solid;
+    }
+    
+    
+    /* products end */
+    /* contact us start */
+    
+    .contact-background {
+        display: flex;
+        flex-direction: column;
+        background: url('../CSS/media/collegefruit/mixed-juices.jpg') no-repeat;
+        background-position: center;
+        justify-content: center;
+        background-size: cover;
+        color: white;
+        
+    
+    }
+    
+    .background-shadow {
+        display: flex;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.40);
+        max-width: 100%;
+        align-items: center;
+        justify-items: center;
+        background-position: center;
+        padding: 80px;
+        justify-content: space-around;
+    
+    
+    }
+    
+    .contact-us {
+    
+        display: flex;
+        flex-wrap: wrap;
+        background-size: cover;
+        justify-content: space-between;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        padding-left: 30px;
+        
+    }
+    
+    .map-div {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+    
+    .map-div p {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .labels {
+        font-size: 20px;
+    }
+    /*contact us end*/
+    
+    
+    /*-- gallery starts here */
+    
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 40px;
+        width: 100%;
+        background: url('assets/CSS/media/collegefruit/istockphoto-1315974167-612x612.jpg') no-repeat center;
+    }
+    
+    .gallery img {
+        transition: 1s;
+        width: 200px;
+        height: 180px;
+        margin: 10px;
+        border: darkgreen solid 2px;
+    
+    }
+    
+    .gallery img:hover {
+        transform: scale(1.5);
+        justify-content: center;
+    }
+    }
+    
+    
+    
+

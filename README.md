@@ -39,6 +39,84 @@
 
 ## Project Goals 
 
+### User Goals 
+- 
+- 
+- 
+- 
+
+### Site Owner Goals
+-
+-
+-
+-
+
+## user Experience
+
+### Traget Audience
+- Famlies 
+-
+-
+
+### User Requirments and Expectations
+-
+-
+-
+-
+-
+
+### User Stories
+
+
+#### First-time User
+numbers start
+
+#### Returning User
+
+#### Site Owner
+finish 
+
+## Design
+
+### Design Choices
+
+### Color
+
+### Fonts
+
+### Structure
+
+### Wireframes
+
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+
+### Frameworks & Tools
+-
+-
+-
+-
+-
+
+
+## Features
+
+### Logo and Navigation Bar
+
+## Footer
+
+
+
+
+
+
+
+
 
 
 
