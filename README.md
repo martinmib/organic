@@ -198,13 +198,13 @@ font-family: 'Tinos', serif; */
 <img src="docs/images/index-wireframe.png">
 </details>
 <details><summary>Products</summary>
-<img src="docs/images/index-wireframe.png">
+<img src="docs/images/product-wireframe.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/images/index-wireframe.png">
+<img src="docs/images/gallery-wireframe.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/images/index-wireframe.png">
+<img src="docs/images/contact-wireframe.png">
 </details>
 
 
@@ -217,16 +217,28 @@ font-family: 'Tinos', serif; */
 - CSS
 
 ### Frameworks & Tools
-- 
--
--
--
--
+- Git pod
+- Git hub
+- Git
+- amiresponsive
+- Balsamiq
+- istockphoto
+- developers.google.com
+- Font Awsome 
+- finish this section off 
+
 
 
 ## Features
 
+
+
 ### Logo and Navigation Bar
+
+- The navagation bar and logo is placed on all four pages
+- The navbar is responsive
+- Very straight forward menu 
+-  
 
 
 
