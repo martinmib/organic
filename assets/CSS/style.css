@@ -15,8 +15,7 @@ body {
     display: flex;
     font-family: 'Cormorant Infant', serif;
     font-size: 16px;
-    min-width: 320px;
-    max-width: 1920;
+    max-width: 1920px;
     max-height: 2000px;
 }
 
@@ -493,20 +492,24 @@ p {
     width: 100%;
 }
 
-@media screen (min-width: 320px;) {
-
-    .body {
-        display: flex;
-        width: (320px);
+@media  screen & (max-width: 650px) {
+    .body{ 
+        width: 100%;
     }
-    .media-change{
-        display:flex;
+    .navbar
+    {
+        width: 100%;
+        
+
+    }
+    .navbar ul a {
         flex-shrink: 1;
     }
-    .navbar ul li a {
-        font-size : 10px;
-    } 
-
+    #media-change {
+        width: 100%;
+        justify-content : center;
+    }
+    
 }
     
 
