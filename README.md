@@ -324,7 +324,38 @@ The site consisist of four pages and ????? features
 ## Validation 
 
 ### HTML Validation
-The wc3 Markup Validation Services is the software i used online 
+The wc3 Markup Validation Service is the online sevice that was used  
+
+<details><summary>Home</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Products</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/images/.png">
+</details>
+
+
+### CSS Validation 
+
+The w3c Jigsaw Css Validation Serice is the online service that was used
+
+<details><summary>Home</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Products</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/images/.png">
+</details>
 
 
 
