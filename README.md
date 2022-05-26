@@ -358,25 +358,257 @@ The websites were tested on the following browsers:
 - Brave
 - Safari
 
+
 ### Testing user stories 
-Design a site which is 
 
-1. simple to use
+#### First-time User
 
-2. bright and colorful naturally ( both with color choice and image options)
-3. has four pages
-4. fully acessability 
+1. As a first time user, I want to be able to navigate the site easily
+
+**Feature**
+Navbar
+
+**Action**
+Use Navigation Bar
+
+**Expected Result**
+For all navigation buttons to work 
+
+**Actual Result**
+
+Everything works as it should 
+
+<details><summary>Home</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Products</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/images/.png">
+</details>
+
+2. As a first time user, I want to understand how the company works
+
+**Feature**
+Home Page
+
+**Action**
+Scroll down the page 
+
+
+**Expected Result**
+Page to Scroll
+ 
+
+**Actual Result**
+Page Scrolls to selected area
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+
+3. As a first time user, I want to be able to contact the company
+
+
+**Feature**
+Contact Form
+
+
+**Action**
+Click Contact on navbar and brings yout to contact page
+Fill in form with all details or it wont let you send the form
+
+
+**Expected Result**
+Page works as expected 
+ 
+
+**Actual Result**
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+4. As a first time user, I want to be able to view some of the products
+
+**Feature**
+
+
+**Action**
+
+
+**Expected Result**
+ 
+
+**Actual Result**
+
+
+#### Returning User
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+5. As a returning user, I want to be able to jump directly onto the companys social pages
+
+**Feature**
+
+
+**Action**
+
+
+**Expected Result**
+ 
+
+**Actual Result**
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+6. As a returning user, I want to find the companies location easy with option of gps 
+
+**Feature**
+
+
+**Action**
+
+
+**Expected Result**
+ 
+
+**Actual Result**
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+7. As a returning user, I want to save time on having to look at different menus or products which is why we chose to sign up for the weekly email
+
+**Feature**
+
+
+**Action**
+
+
+**Expected Result**
+ 
+
+**Actual Result**
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+8. As a returning user, I want to be able to order easy i dont want to have to input details each time 
+
+**Feature**
+
+
+**Action**
+
+
+**Expected Result**
+ 
+
+**Actual Result**
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
 
 
 
+#### Site Owner
+9. As a site owner, I want the site to be bright and follow the organic thought
+
+**Feature**
 
 
+**Action**
 
 
+**Expected Result**
+ 
+
+**Actual Result**
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+10. As a site owner, I want the site to gather as many contact emails as possible 
+
+**Feature**
 
 
+**Action**
 
 
+**Expected Result**
+ 
+
+**Actual Result**
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+11. As a site owner, I want the site to show customers gallery images of individual fruits and juices which we use for the final prodcuts
+
+**Feature**
+
+
+**Action**
+
+
+**Expected Result**
+ 
+
+**Actual Result**
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+12. As a site owner, I want the site to show our town location because we dont operate a shop front
+
+**Feature**
+
+
+**Action**
+
+
+**Expected Result**
+ 
+
+**Actual Result**
+
+<details><summary>feature-homepage</summary>
+<img src="docs/images/feature-homepage.png">
+</details>
+
+## Bugs 
+
+## Deployment
+
+## Credits
+
+### Media
+
+### Code
+
+## Acknowledgments
+I would like to thank 
+- My mentor Mo Shami for the final push and his guidence and direction
+- My kids and fiance for not disowning me in my times of needed silence
+- Code institue and the very very helpful guy named ed
+- The universe for just being
 
 
 
