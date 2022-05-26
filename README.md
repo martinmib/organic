@@ -357,6 +357,56 @@ The w3c Jigsaw Css Validation Serice is the online service that was used
 <img src="docs/images/.png">
 </details>
 
+### Accessibility 
+
+The WAve WebAim Web accessibility evaluation tool is the online service that was used
+
+<details><summary>Home</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Products</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/images/.png">
+</details>
+
+### Performance 
+
+Google Lighthouse in Google Chrome dev tools was the online servie that was used 
+
+<details><summary>Home</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Products</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/images/.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/images/.png">
+</details>
+
+
+### Performing tests on various devices: 
+    The website was tested on the following devices:
+    - Apple Macbook Pro 15inch 
+    - Apple MacAir 13inch 
+    - Apple I Pad 10 
+
+    All operating on safari 
+
+### Browser Compatability 
+The websites were tested on the following browsers:
+- Google Chrome 
+- Brave
+- Safari
+
+
 
 
 
