@@ -254,41 +254,81 @@ The site consisist of four pages and ????? features
 -
 - User stories covered:
 
+<details><summary>Selection of Fruit</summary>
+<img src="docs/images/selection-of-fruit-logo.png">
+</details>
+
 ### What we do 
 
 -
 -
 - User stories covered:
 
-# How we do it 
+<details><summary>What We Do</summary>
+<img src="docs/images/what-we-do-logo.png">
+</details>
+
+### How we do it 
 
 -
 -
 - User stories covered:
+
+<details><summary>How We Do</summary>
+<img src="docs/images/how-we-do-logo.png">
+</details>
 
 ### Footer
 
 -
 - User stories covered: 
 
+<details><summary>Navbar-logo</summary>
+<img src="docs/footer/navbar-logo.png">
+</details>
+
 
 ### Products
 -
--
+- User stories covered:
+
+<details><summary>Products</summary>
+<img src="docs/images/products-logo.png">
+</details>
 
 
 ### Gallery
 -
 - User stories covered:
 
+<details><summary>Gallery</summary>
+<img src="docs/images/gallery-logo.png">
+</details>
 
 ### Contact
 -
 - User stories covered:
 
+<details><summary>contact</summary>
+<img src="docs/images/navbar-logo.png">
+</details>
+
 ### Map 
 -
 - User stories covered:
+
+<details><summary>Map</summary>
+<img src="docs/images/navbar-logo.png">
+</details>
+
+## Validation 
+
+### HTML Validation
+The wc3 Markup Validation Services is the software i used online 
+
+
+
+
 
 
 
