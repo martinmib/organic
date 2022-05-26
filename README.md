@@ -117,60 +117,10 @@ On the index.html page there is a grey opacity with the color rgba(0,0,0,0.35) j
 
 All colours above were used as simple and basic colors on the basis of keeping it as close to the general relation of the meaning of the word organic.
 
-Dictionary
-Definitions from Oxford Languages
+<details><summary>Organic Wikipediea Meaning and understanding </summary>
+<img src="docs/images/organic-wikipedia.png">
+</details>
 
-organic
-
-1.
-relating to or derived from living matter.
-"organic soils"
-Similar:
-living
-live
-animate
-biological
-natural
-biotic
-Opposite:
-inorganic
-2.
-(of food or farming methods) produced or involving production without the use of chemical fertilizers, pesticides, or other artificial chemicals.
-"organic farming"
-Similar:
-pesticide-free
-additive-free
-chemical-free
-non-chemical
-natural
-3.
-PHYSIOLOGY
-relating to a bodily organ or organs.
-4.
-denoting or characterized by a harmonious relationship between the elements of a whole.
-"the organic unity of the integral work of art"
-Similar:
-structured
-organized
-coherent
-integrated
-coordinated
-ordered
-systematic
-systematized
-methodical
-orderly
-consistent
-harmonious
-methodized
-Opposite:
-disparate
-noun
-plural noun: organics; noun: organic
-1.
-a food produced by organic farming.
-2.
-an organic chemical compound
 
 ### Fonts
 
@@ -230,7 +180,9 @@ font-family: 'Tinos', serif; */
 - istockphoto
 - developers.google.com
 - Font Awsome 
-- finish this section off 
+- Google Fonts
+
+
 
 
 
@@ -255,7 +207,7 @@ The site consisist of four pages and ????? features
 - User stories covered:
 
 <details><summary>Selection of Fruit</summary>
-<img src="docs/images/selection-of-fruit-logo.png">
+<img src="docs/images/selection-of-fruit.png">
 </details>
 
 ### What we do 
@@ -265,7 +217,7 @@ The site consisist of four pages and ????? features
 - User stories covered:
 
 <details><summary>What We Do</summary>
-<img src="docs/images/what-we-do-logo.png">
+<img src="docs/images/what-we-do.png">
 </details>
 
 ### How we do it 
@@ -275,16 +227,16 @@ The site consisist of four pages and ????? features
 - User stories covered:
 
 <details><summary>How We Do</summary>
-<img src="docs/images/how-we-do-logo.png">
+<img src="docs/images/how-we-do.png">
 </details>
 
 ### Footer
 
--
+- 
 - User stories covered: 
 
-<details><summary>Navbar-logo</summary>
-<img src="docs/footer/navbar-logo.png">
+<details><summary>Footer</summary>
+<img src="docs/footer/footer.png">
 </details>
 
 
@@ -392,11 +344,11 @@ Google Lighthouse in Google Chrome dev tools was the online servie that was used
 </details>
 
 
-### Performing tests on various devices: 
-    The website was tested on the following devices:
-    - Apple Macbook Pro 15inch 
-    - Apple MacAir 13inch 
-    - Apple I Pad 10 
+### Performing tests on various devices 
+ The website was tested on the following devices:
+  - Apple Macbook Pro 15inch 
+  - Apple MacAir 13inch 
+  - Apple I Pad 10 
 
     All operating on safari 
 
@@ -406,7 +358,14 @@ The websites were tested on the following browsers:
 - Brave
 - Safari
 
+### Testing user stories 
+Design a site which is 
 
+1. simple to use
+
+2. bright and colorful naturally ( both with color choice and image options)
+3. has four pages
+4. fully acessability 
 
 
 
