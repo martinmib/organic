@@ -50,8 +50,8 @@ The user goals
 - to be informed of what the website (company) offers
 - to be informed of how the website(company) operates and delivers 
 - list a standard product list to give customer a guideline on the structure of products available 
-- explain that you have to sign up to get an updated product list with up to date prices as the price of foodstuff is increasing and doesnt leave the company at a loss of earnings on a human error.
-- on the sign 
+
+
 
 ### Site Owner Goals
 - list a standard product list to give customer a guideline on the structure of products available 
@@ -59,6 +59,7 @@ The user goals
 - An updatable gallery with the option of hover image enlarge and click to view larger on a preview window
 - have a sign up page which gives the company an extra advantage at reaching new customer through marketed email 
 - have social media icons which direect back to the company's social media sites
+- explain that you have to sign up to get an updated product list with up to date prices as the price of foodstuff is increasing and doesnt leave the company at a loss of earnings on a human error
 
 ## User Experience
 
@@ -81,23 +82,24 @@ As the food industry is a very vast market the target audience would consist of
 
 
 #### First-time User
-As a first time user
-As a first time user
-As a first time user
-As a first time user
+
+As a first time user, I want to be able to navigate the site easily
+As a first time user, I want to understand how the company works
+As a first time user, I want to be able to contact the company 
+As a first time user, I want to be able to view some of the products 
 
 #### Returning User
-As a returning user, I want  like to be able to
-As a returning user, I want
-As a returning user, I want
-As a returning user, I want 
+As a returning user, I want to be able to jump directly onto the companys social pages
+As a returning user, I want to find the companies location easy with option of gps 
+As a returning user, I want to save time on having to look at different menus or products which is why we chose to sign up for the weekly email
+As a returning user, I want to be able to order easy i dont want to have to input details each time 
 
 
 #### Site Owner
-As a site owner
-As a site owner
-As a site owner
-As a site owner
+As a site owner, I want the site to be bright and follow the organic thought
+As a site owner, I want the site to gather as many contact emails as possible 
+As a site owner, I want the site to show customers gallery images of individual fruits and juices which we use for the final prodcuts
+As a site owner, I want the site to  
 
 ## Design
 
