@@ -83,28 +83,32 @@ As the food industry is a very vast market the target audience would consist of
 
 #### First-time User
 
-As a first time user, I want to be able to navigate the site easily
-As a first time user, I want to understand how the company works
-As a first time user, I want to be able to contact the company 
-As a first time user, I want to be able to view some of the products 
+1. As a first time user, I want to be able to navigate the site easily
+2. As a first time user, I want to understand how the company works
+3. As a first time user, I want to be able to contact the company 
+4. As a first time user, I want to be able to view some of the products 
 
 #### Returning User
-As a returning user, I want to be able to jump directly onto the companys social pages
-As a returning user, I want to find the companies location easy with option of gps 
-As a returning user, I want to save time on having to look at different menus or products which is why we chose to sign up for the weekly email
-As a returning user, I want to be able to order easy i dont want to have to input details each time 
+5. As a returning user, I want to be able to jump directly onto the companys social pages
+6. As a returning user, I want to find the companies location easy with option of gps 
+7. As a returning user, I want to save time on having to look at different menus or products which is why we chose to sign up for the weekly email
+8. As a returning user, I want to be able to order easy i dont want to have to input details each time 
 
 
 #### Site Owner
-As a site owner, I want the site to be bright and follow the organic thought
-As a site owner, I want the site to gather as many contact emails as possible 
-As a site owner, I want the site to show customers gallery images of individual fruits and juices which we use for the final prodcuts
-As a site owner, I want the site to  
+9. As a site owner, I want the site to be bright and follow the organic thought
+10. As a site owner, I want the site to gather as many contact emails as possible 
+11. As a site owner, I want the site to show customers gallery images of individual fruits and juices which we use for the final prodcuts
+12. As a site owner, I want the site to show our town location because we dont operate a shop front
 
 ## Design
 
-
 ### Design Choices
+
+The design of the site is a bright colorful site which is done through imagry , that has a simple text disply for logo, nav bar , footer with selected content in each page with a white background on selected spaces to amplify the imagry. 
+On the index.html page there is a grey opacity with the color rgba(0,0,0,0.35) just to bounce out the text and imagry
+
+
 
 ### Color
 - Dark Green
@@ -166,20 +170,20 @@ plural noun: organics; noun: organic
 1.
 a food produced by organic farming.
 2.
-an organic chemical compound.
+an organic chemical compound
 
 ### Fonts
 
 Logo:
 font-family: 'Cormorant Infant', serif;: 
 
-I used the cormorant infant font, with a backup of serif. I liked the slim simple design on the basis that i dint want to overcrowd the navigation bar on the understanding of the placement of the <a> selectors being under neath. 
+I used the cormorant infant font, with a backup of serif. I liked the slim simple design on the basis that i dint want to overcrowd the navigation bar on the understanding of the placement of the <a> selectors being underneath 
 
 H1,H2:
 
 font-family: 'Source Serif Pro', serif;
 
-I used the 'Source Serif Pro' font, with a backup of serif. The slim design was neat and simple. Probably could be thicker for hard of sight. 
+I used the 'Source Serif Pro' font, with a backup of serif. The slim design was neat and simple. Probably could be thicker for hard of sight
 
 P:
 font-family: 'Tinos', serif; */
@@ -190,6 +194,9 @@ font-family: 'Tinos', serif; */
 
 ### Wireframes
 
+<details><summary>Home</summary>
+<img src="docs/images/index-wireframe.png">
+</details>
 
 
 
@@ -201,7 +208,7 @@ font-family: 'Tinos', serif; */
 - CSS
 
 ### Frameworks & Tools
--
+- 
 -
 -
 -
@@ -211,6 +218,8 @@ font-family: 'Tinos', serif; */
 ## Features
 
 ### Logo and Navigation Bar
+
+
 
 ## Footer
 
