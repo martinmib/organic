@@ -177,20 +177,25 @@ an organic chemical compound
 Logo:
 font-family: 'Cormorant Infant', serif;: 
 
-I used the cormorant infant font, with a backup of serif. I liked the slim simple design on the basis that i dint want to overcrowd the navigation bar on the understanding of the placement of the <a> selectors being underneath 
+I used the cormorant infant font, with a backup of serif. I liked the slim simple design on the basis that i dint want to overcrowd the navigation bar on the understanding of the placement of the a selectors being underneath 
 
-H1,H2:
+### H1,H2:
 
 font-family: 'Source Serif Pro', serif;
 
 I used the 'Source Serif Pro' font, with a backup of serif. The slim design was neat and simple. Probably could be thicker for hard of sight
 
-P:
+### P:
 font-family: 'Tinos', serif; */
 
 
 
 ### Structure
+
+. Home page (which has a nav bar and logo which is simoly laid out easy to use, a footer with all social links and information on the fruit, what we do and how we do it)
+.Products page (which has an arraw of products from fruit boxes to cold pressed juices)
+. Gallery page ( which has an array of images that float out and have the option of a full size image on click to view in a preview window)
+- Contact page ( which has a name, email,phone no, and comments section)
 
 ### Wireframes
 
@@ -230,6 +235,7 @@ font-family: 'Tinos', serif; */
 
 
 ## Features
+The site consisist of four pages and ????? features 
 
 
 
@@ -238,11 +244,51 @@ font-family: 'Tinos', serif; */
 - The navagation bar and logo is placed on all four pages
 - The navbar is responsive
 - Very straight forward menu 
--  
+
+<details><summary>Navbar-logo</summary>
+<img src="docs/images/navbar-logo.png">
+</details>
+
+### Some of the fruit we use 
+
+-
+- User stories covered:
+
+### What we do 
+
+-
+-
+- User stories covered:
+
+# How we do it 
+
+-
+-
+- User stories covered:
+
+### Footer
+
+-
+- User stories covered: 
 
 
+### Products
+-
+-
 
-## Footer
+
+### Gallery
+-
+- User stories covered:
+
+
+### Contact
+-
+- User stories covered:
+
+### Map 
+-
+- User stories covered:
 
 
 
