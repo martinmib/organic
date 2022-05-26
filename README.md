@@ -38,45 +38,69 @@
 11. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
+Design a site which is  
+. simple to use
+. bright and colorful naturally ( both with color choice and image options)
+. has four pages
+. fully acessability 
 
 ### User Goals 
-- 
-- 
-- 
-- 
+The user goals 
+- to be able to navigate the site easy 
+- to be informed of what the website (company) offers
+- to be informed of how the website(company) operates and delivers 
+- list a standard product list to give customer a guideline on the structure of products available 
+- explain that you have to sign up to get an updated product list with up to date prices as the price of foodstuff is increasing and doesnt leave the company at a loss of earnings on a human error.
+- on the sign 
 
 ### Site Owner Goals
--
--
--
--
+- list a standard product list to give customer a guideline on the structure of products available 
+- explain that you have to sign up to get an updated product list with up to date prices as the price of foodstuff is increasing and doesnt leave the company at a loss of earnings on a human error.
+- An updatable gallery with the option of hover image enlarge and click to view larger on a preview window
+- have a sign up page which gives the company an extra advantage at reaching new customer through marketed email 
+- have social media icons which direect back to the company's social media sites
 
-## user Experience
+## User Experience
+
 
 ### Traget Audience
-- Famlies 
--
--
+As the food industry is a very vast market the target audience would consist of 
+- Families
+- Businesses offices 
+- individual that want a specific cost on their weekly shop
 
 ### User Requirments and Expectations
--
--
--
--
--
+- A site that is simple and inuitive to use 
+- Explanation of what the company provides and how
+
+- A fully functional website 
+- An easy way to get in contact to recieve up to date order sheet
+- Quality presentation
 
 ### User Stories
 
 
 #### First-time User
-numbers start
+As a first time user
+As a first time user
+As a first time user
+As a first time user
 
 #### Returning User
+As a returning user, I want  like to be able to
+As a returning user, I want
+As a returning user, I want
+As a returning user, I want 
+
 
 #### Site Owner
-finish 
+As a site owner
+As a site owner
+As a site owner
+As a site owner
 
 ## Design
+
 
 ### Design Choices
 
@@ -163,6 +187,8 @@ font-family: 'Tinos', serif; */
 ### Structure
 
 ### Wireframes
+
+
 
 
 ## Technologies Used
@@ -275,4 +301,4 @@ gitpod /workspace/organic (main) $ git commit -m "restructured css back to mobil
  bug with images not centering 
 
  redoing the products page 
- 
+ read
