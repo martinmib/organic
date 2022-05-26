@@ -5,9 +5,11 @@ font-family: 'Cormorant Infant', serif;
 font-family: 'Source Serif Pro', serif;
 font-family: 'Tinos', serif; */
 
-* {box-sizing: border-box;
+* {
+    box-sizing: border-box;
     padding: 0;
-    margin: 0;}
+    margin: 0;
+}
 
 body {
     display: flex;
@@ -126,6 +128,7 @@ p {
 .active {
     border-bottom: 2px solid white;
 }
+
 .hero {
     width: 100%;
     min-height: 400px;
@@ -409,7 +412,7 @@ p {
     justify-content: center;
     background-size: cover;
     color: white;
-    
+
 
 }
 
@@ -417,7 +420,7 @@ p {
     display: flex;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.40);
-    max-width: 100%;
+    width: 100%;
     align-items: center;
     justify-items: center;
     background-position: center;
@@ -437,7 +440,7 @@ p {
     text-align: center;
     align-items: center;
     padding-left: 30px;
-    
+
 }
 
 .map-div {
@@ -456,6 +459,7 @@ p {
 .labels {
     font-size: 20px;
 }
+
 /*contact us end*/
 
 
@@ -485,8 +489,24 @@ p {
 }
 
 
-.display { 
+.display {
     width: 100%;
 }
 
+@media screen (min-width: 320px;) {
+
+    .body {
+        display: flex;
+        width: (320px);
+    }
+    .media-change{
+        display:flex;
+        flex-shrink: 1;
+    }
+    .navbar ul li a {
+        font-size : 10px;
+    } 
+
+}
+    
 
