@@ -377,19 +377,6 @@ For all navigation buttons to work
 
 Everything works as it should 
 
-<details><summary>Home</summary>
-<img src="docs/images/.png">
-</details>
-<details><summary>Products</summary>
-<img src="docs/images/.png">
-</details>
-<details><summary>Gallery</summary>
-<img src="docs/images/.png">
-</details>
-<details><summary>Contact</summary>
-<img src="docs/images/.png">
-</details>
-
 2. As a first time user, I want to understand how the company works
 
 **Feature**
@@ -406,45 +393,36 @@ Page to Scroll
 **Actual Result**
 Page Scrolls to selected area
 
-<details><summary>feature-homepage</summary>
-<img src="docs/images/feature-homepage.png">
-</details>
-
-
 3. As a first time user, I want to be able to contact the company
-
 
 **Feature**
 Contact Form
 
-
 **Action**
 Click Contact on navbar and brings yout to contact page
-Fill in form with all details or it wont let you send the form
-
+Fill in form with all details
 
 **Expected Result**
-Page works as expected 
- 
+Fully operational contact form 
 
 **Actual Result**
-
-<details><summary>feature-homepage</summary>
-<img src="docs/images/feature-homepage.png">
-</details>
+Works as expected
 
 4. As a first time user, I want to be able to view some of the products
 
 **Feature**
-
+Product page
 
 **Action**
+Click products on navigation bar
 
 
 **Expected Result**
+Listing of products on a selected page
  
 
 **Actual Result**
+Works as expected
 
 
 #### Returning User
@@ -473,32 +451,31 @@ Page works as expected
 6. As a returning user, I want to find the companies location easy with option of gps 
 
 **Feature**
-
+Map
 
 **Action**
+Click navigation bar scroll down the page to map and search
 
 
 **Expected Result**
- 
+ Town Location
 
 **Actual Result**
-
-<details><summary>feature-homepage</summary>
-<img src="docs/images/feature-homepage.png">
-</details>
+Works as expected
 
 7. As a returning user, I want to save time on having to look at different menus or products which is why we chose to sign up for the weekly email
 
 **Feature**
-
+Contact 
 
 **Action**
-
+All included in the weekly sign up email 
 
 **Expected Result**
+Save time and browsing 
  
-
 **Actual Result**
+On expected recieving of email works as ment to 
 
 <details><summary>feature-homepage</summary>
 <img src="docs/images/feature-homepage.png">
@@ -507,90 +484,72 @@ Page works as expected
 8. As a returning user, I want to be able to order easy i dont want to have to input details each time 
 
 **Feature**
-
+Contact 
 
 **Action**
-
+when all your details are input the company has your email which gives an updated menu weekly
 
 **Expected Result**
+customer recieves upto date details
  
-
 **Actual Result**
-
-<details><summary>feature-homepage</summary>
-<img src="docs/images/feature-homepage.png">
-</details>
-
-
+future aspect 
 
 #### Site Owner
 9. As a site owner, I want the site to be bright and follow the organic thought
 
 **Feature**
-
+Visual 
 
 **Action**
-
+Selection of different images on various pages
 
 **Expected Result**
+Bright Visuals 
  
-
 **Actual Result**
-
-<details><summary>feature-homepage</summary>
-<img src="docs/images/feature-homepage.png">
-</details>
+Works as expected 
 
 10. As a site owner, I want the site to gather as many contact emails as possible 
 
 **Feature**
-
+Contact Form
 
 **Action**
-
+Click Contact on the navigation bar and scroll down to contact to input the information 
 
 **Expected Result**
- 
-
+return to home page after input is completly filled out
+  
 **Actual Result**
-
-<details><summary>feature-homepage</summary>
-<img src="docs/images/feature-homepage.png">
-</details>
+Works as expected 
 
 11. As a site owner, I want the site to show customers gallery images of individual fruits and juices which we use for the final prodcuts
 
 **Feature**
-
+Gallery 
 
 **Action**
-
+Click Gallery on navigation bar
 
 **Expected Result**
+A selection of hoverable images with the option of a larger image
  
-
 **Actual Result**
-
-<details><summary>feature-homepage</summary>
-<img src="docs/images/feature-homepage.png">
-</details>
+Works as expected 
 
 12. As a site owner, I want the site to show our town location because we dont operate a shop front
 
 **Feature**
-
-
+Map
 **Action**
-
+Click Contact on the navigation bar and scroll down 
 
 **Expected Result**
+Map to show town location
  
-
 **Actual Result**
-
-<details><summary>feature-homepage</summary>
-<img src="docs/images/feature-homepage.png">
-</details>
+works as expected
 
 ## Bugs 
 
@@ -620,7 +579,8 @@ kept the js file not a dickey on how it works yet
  3 files changed, 228 insertions(+), 189 deletions(-)
  rewrite index.html (61%)
 
-9. I redone the site from mobile up to only have it not working 
+9. redone the site from mobile up to only have it not working 
+10. tidy up the site from any marginal errors 
 
 ## Future adds and fixes 
 
@@ -628,7 +588,7 @@ kept the js file not a dickey on how it works yet
 2. Add Chat bot with ordering possabilities 
 3. Add Hamburger menu
 4. Sort out accessibility
-5. 
+5. Work out why the performance is low on certain pages
 
 ## Deployment
 
@@ -649,7 +609,7 @@ Cloning the repository by following these steps:
 4. Open Git Bash
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-7.Press Enter to create your local clone.
+7. Press Enter to create your local clone.
 
 ## Credits
 
@@ -667,6 +627,10 @@ My images cames from two sites
 2. Contact . I used the contact form from a site called iforms 
 
 3. Map . i got the details on how to add from https://www.youtube.com/watch?v=4U_AAGHzTok
+4. Read me template was used as a guideline  
+
+from 4n4ru/CI_MS1_BodelschwingherHof
+
 
 ## Acknowledgments
 I would like to thank 
