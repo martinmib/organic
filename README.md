@@ -359,15 +359,44 @@ Google Lighthouse in Google Chrome dev tools was the online servie that was used
 <details><summary>Home</summary>
 <img src="docs/images/home-performace.png">
 </details>
+
+Updated
+
+<details><summary>Home</summary>
+<img src="docs/images/update-home-performance.png">
+</details>
+
 <details><summary>Products</summary>
 <img src="docs/images/products-performance.png">
 </details>
+
+Updated
+
+<details><summary>Products</summary>
+<img src="docs/images/update-products-performance.png">
+</details>
+
 <details><summary>Gallery</summary>
 <img src="docs/images/gallery-performance.png">
 </details>
+
+Updated 
+
+<details><summary>Gallery</summary>
+<img src="docs/images/update-gallery-performance.png">
+</details>
+
+
 <details><summary>Contact</summary>
 <img src="docs/images/contact-performance.png">
 </details>
+
+Updated
+
+<details><summary>Contact</summary>
+<img src="docs/images/update-perormance-contact.png">
+</details>
+
 
 
 ### Performing tests on various devices 
