@@ -139,7 +139,12 @@ p {
     background-size: cover;
     flex: 2;
 }
-.background
+.background{
+    background-image: url('../CSS/media/collegefruit/fruitmixed2.jpg');
+    background-size: cover;
+
+
+}
 
 .heading {
     display: flex;
@@ -168,6 +173,7 @@ p {
     padding-bottom: 15px;
     margin: auto;
     height: 290px;
+    
 }
 
 
@@ -189,7 +195,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     height: 175px;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.50);
     width: 100%;
     align-items: center;
     margin: auto;
@@ -205,6 +211,8 @@ p {
     border-radius: 50%;
     padding: 30px;
     margin: auto;
+    border: 2px darkgreen solid;
+    justify-items: center;
 }
 
 .strawberry {
@@ -276,13 +284,13 @@ p {
     justify-content: center;
     padding: 30px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.50);
 }
 
 .what-we-offer {
     display: flex;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.50);
     width: 100%;
     color: white;
     text-transform: uppercase;
