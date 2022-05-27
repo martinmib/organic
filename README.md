@@ -315,6 +315,14 @@ The WAve WebAim Web accessibility evaluation tool is the online service that was
 <details><summary>Home</summary>
 <img src="docs/images/index-accessibility.png">
 </details>
+
+Updated
+
+
+<details><summary>Home</summary>
+<img src="docs/update-footer-home.png">
+</details>
+
 <details><summary>Products</summary>
 <img src="docs/images/products-accessibility.png">
 </details>
@@ -619,6 +627,7 @@ My images cames from two sites
 
 1. Adobe Photo Shop 
 2. IStock Photos
+3. 100forms.com
 
 ### Code
 
