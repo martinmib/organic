@@ -137,15 +137,7 @@ p {
     background-size: cover;
     flex: 2;
 }
-.background{ 
-    width: 100%;
-    min-height: 400px;
-    height: 600px;
-    background-image: url('');
-    background-position: top;
-    background-size: cover;
-
-}
+.background
 
 .heading {
     display: flex;
@@ -501,24 +493,5 @@ p {
     width: 100%;
 }
 
-@media  screen & (max-width: 650px) {
-    .body{ 
-        width: 100%;
-    }
-    .navbar
-    {
-        width: 100%;
-        
-
-    }
-    .navbar ul a {
-        flex-shrink: 1;
-    }
-    #media-change {
-        width: 100%;
-        justify-content : center;
-    }
-    
-}
     
 

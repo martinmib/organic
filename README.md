@@ -278,16 +278,16 @@ The site consisist of four pages and ????? features
 The wc3 Markup Validation Service is the online sevice that was used  
 
 <details><summary>Home</summary>
-<img src="assets/CSS/media/collegefruit/home-validation.png">
+<img src="docs/images/home-validation-html.png">
 </details>
 <details><summary>Products</summary>
-<img src="">
+<img src="docs/images/products-validation-html.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/images/.png">
+<img src="docs/images/gallery-validation-html.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/images/.png">
+<img src="docs/images/contact-validation-html.png">
 </details>
 
 
@@ -295,34 +295,27 @@ The wc3 Markup Validation Service is the online sevice that was used
 
 The w3c Jigsaw Css Validation Serice is the online service that was used
 
-<details><summary>Home</summary>
-<img src="docs/images/.png">
-</details>
-<details><summary>Products</summary>
-<img src="docs/images/.png">
-</details>
-<details><summary>Gallery</summary>
-<img src="docs/images/.png">
-</details>
-<details><summary>Contact</summary>
-<img src="docs/images/.png">
-</details>
+<details><summary></summary>
+<img src="docs/images/css-validation.png"></details>
+
 
 ### Accessibility 
 
-The WAve WebAim Web accessibility evaluation tool is the online service that was used
+The WAve WebAim Web accessibility evaluation tool is the online service that was used. It came back with re occuring errors one 5 being no text in the icons on the footer.
+4 being contrast issues with the navbar text color of white because of where it is located.
+1 alert of home or index link redundant because it is used already in the logo not sure why
 
 <details><summary>Home</summary>
-<img src="docs/images/.png">
+<img src="docs/images/index-accessibility.png">
 </details>
 <details><summary>Products</summary>
-<img src="docs/images/.png">
+<img src="docs/images/products-accessibility.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/images/.png">
+<img src="docs/images/gallery-accessibility.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/images/.png">
+<img src="docs/images/contact-accessibility.png">
 </details>
 
 ### Performance 
@@ -330,7 +323,7 @@ The WAve WebAim Web accessibility evaluation tool is the online service that was
 Google Lighthouse in Google Chrome dev tools was the online servie that was used 
 
 <details><summary>Home</summary>
-<img src="docs/images/.png">
+<img src="">
 </details>
 <details><summary>Products</summary>
 <img src="docs/images/.png">
@@ -594,13 +587,79 @@ Page works as expected
 
 ## Bugs 
 
+1. 15th may deleted most work to try again as it is not doing what i want it to do. 
+
+2. restarted by cleaning up what i dont need 
+
+3. add header and logo structured into position
+cleared css and html head media wouldnt adjust kept going from full screen to hlf white hlf green
+
+
+4. eleted css to understand it better and so my code wasnt copying
+kept the js file not a dickey on how it works yet 
+
+
+5. ran into an issue placing the images in the fruit images 
+
+6. got them in no problem after just aligning but still not centering properly 
+
+
+7. ran html and css validators to have very little bugs  few  , , , in places they shouldnt and one open div that if i close it takes the picture from the index html backgound.
+ 
+
+
+8. gitpod /workspace/organic (main) $ git commit -m "restructured css back to mobile view" 
+[main 31e4a0b] restructured css back to mobile view
+ 3 files changed, 228 insertions(+), 189 deletions(-)
+ rewrite index.html (61%)
+
+9. I redone the site from mobile up to only have it not working 
+
+## Future adds and fixes 
+
+1. Fix any errors find a soloution
+2. Add Chat bot with ordering possabilities 
+3. Add Hamburger menu
+4. Sort out accessibility
+5. 
+
 ## Deployment
+
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://martinmib.github.io/organic/
+
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7.Press Enter to create your local clone.
 
 ## Credits
 
 ### Media
 
+My images cames from two sites
+
+1. Adobe Photo Shop 
+2. IStock Photos
+
 ### Code
+
+1. navbar i watched https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ to get the idea for a hamburger menu but have to come back to it to implement it into the site 
+
+2. Contact . I used the contact form from a site called iforms 
+
+3. Map . i got the details on how to add from https://www.youtube.com/watch?v=4U_AAGHzTok
 
 ## Acknowledgments
 I would like to thank 
@@ -608,86 +667,3 @@ I would like to thank
 - My kids and fiance for not disowning me in my times of needed silence
 - Code institue and the very very helpful guy named ed
 - The universe for just being
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15th may deleted most work to try again as it is not doing what i wantit to do. 
-
-restarted by cleaning up what i dont need 
-
-add header and logo structured into position
-cleared css and html head media wouldnt adjust kept going from full screen to hlf white hlf green
-
-
-deleted css to understand it better and so my code wasnt copying
-kept the js file not a dickey on how it works yet 
-
-
-ran into an issue placing the images in the fruit images 
-
-got them in no problem after just aligning
-
-starting to do the other pages. 
-
-ran html and css validators to have very little bugs  few  , , , in places they shouldnt and one open div that if i close it takes the picture from the index html backgound. 
-https://www.hobo-web.co.uk/best-screen-size/
-
-put in comment in the html to help me understand the structure on paper 
-
-after setting out the structure i redone the css and started at mobile size working forward easier to do and structure
-
-https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/
-
-
-gitpod /workspace/organic (main) $ git commit -m "restructured css back to mobile view" 
-[main 31e4a0b] restructured css back to mobile view
- 3 files changed, 228 insertions(+), 189 deletions(-)
- rewrite index.html (61%)
-
-
-
- add options in the future of an upto date menu 
-
-
- chat bot for ordering as well possability 
-
- hamburger got code from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/#sec-vid
-
- tried but didnt have time will do again 
-
- https://www.istockphoto.com/search/2/image?family=creative&phrase=fruit%20
- 
-
- trying to figure out how to place the boxes center
-
- https://developers.google.com/maps/documentation/javascript/adding-a-google-map
-
- https://www.youtube.com/watch?v=4U_AAGHzTok
-
- bug with images not centering 
-
- redoing the products page 
- read
