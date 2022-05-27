@@ -137,6 +137,15 @@ p {
     background-size: cover;
     flex: 2;
 }
+.background{ 
+    width: 100%;
+    min-height: 400px;
+    height: 600px;
+    background-image: url('');
+    background-position: top;
+    background-size: cover;
+
+}
 
 .heading {
     display: flex;
@@ -358,7 +367,7 @@ p {
 .products-background {
     display: flex;
     flex-direction: column;
-    background: url('../CSS/media/collegefruit/Background-products.jpg') no-repeat fixed;
+    background: url('../CSS/media/collegefruit/background-products.jpg') no-repeat fixed;
     background-position: center;
     background-size: cover;
     color: white;

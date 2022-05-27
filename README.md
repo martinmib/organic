@@ -234,7 +234,7 @@ The site consisist of four pages and ????? features
 - User stories covered: 5, 9 
 
 <details><summary>Footer</summary>
-<img src="docs/footer/footer.png">
+<img src="docs/images/footer.png">
 </details>
 
 
