@@ -39,10 +39,10 @@
 
 ## Project Goals 
 Design a site which is  
-. simple to use
-. bright and colorful naturally ( both with color choice and image options)
-. has four pages
-. fully acessability 
+- simple to use
+- bright and colorful naturally ( both with color choice and image options)
+- has four pages
+- fully acessability 
 
 ### User Goals 
 The user goals 
@@ -121,6 +121,10 @@ All colours above were used as simple and basic colors on the basis of keeping i
 <img src="docs/images/organic-wikipedia.png">
 </details>
 
+<details><summary>Dark Green Colour </summary>
+<img src="docs/images/dark-green-color.png">
+</details>
+
 
 ### Fonts
 
@@ -133,10 +137,11 @@ I used the cormorant infant font, with a backup of serif. I liked the slim simpl
 
 font-family: 'Source Serif Pro', serif;
 
-I used the 'Source Serif Pro' font, with a backup of serif. The slim design was neat and simple. Probably could be thicker for hard of sight
+The headings used the 'Source Serif Pro' font, with a backup of serif. The slim design was neat and simple. Probably could be thicker for hard of sight
 
 ### P:
-font-family: 'Tinos', serif; */
+
+The paragraphs used the font-family: 'Tinos', serif; */ i think it stands out maybe a little too much but it is easily read
 
 
 
@@ -631,11 +636,11 @@ The website was deployed using GitHub Pages by following these steps:
 3. For the source select Branch: master
 4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://martinmib.github.io/organic/
 
-You can for fork the repository by following these steps:
+Forking the repository by following these steps:
 1. Go to the GitHub repository
 2. Click on Fork button in upper right hand corner
 
-You can clone the repository by following these steps:
+Cloning the repository by following these steps:
 1. Go to the GitHub repository 
 2. Locate the Code button above the list of files and click it 
 3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
