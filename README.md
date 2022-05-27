@@ -1,7 +1,7 @@
 # ORGANIC
 (Developer: Martin Brilly)
 
-![Mockup image](come back to this after)
+![Mockup image](docs/images/responsive.png)
 
 [Live Webpage](https://martinmib.github.io/organic/)
 
@@ -63,7 +63,6 @@ The user goals
 
 ## User Experience
 
-
 ### Traget Audience
 As the food industry is a very vast market the target audience would consist of 
 - Families
@@ -73,13 +72,11 @@ As the food industry is a very vast market the target audience would consist of
 ### User Requirments and Expectations
 - A site that is simple and inuitive to use 
 - Explanation of what the company provides and how
-
 - A fully functional website 
 - An easy way to get in contact to recieve up to date order sheet
 - Quality presentation
 
 ### User Stories
-
 
 #### First-time User
 
@@ -89,17 +86,19 @@ As the food industry is a very vast market the target audience would consist of
 4. As a first time user, I want to be able to view some of the products 
 
 #### Returning User
+
 5. As a returning user, I want to be able to jump directly onto the companys social pages
 6. As a returning user, I want to find the companies location easy with option of gps 
 7. As a returning user, I want to save time on having to look at different menus or products which is why we chose to sign up for the weekly email
 8. As a returning user, I want to be able to order easy i dont want to have to input details each time 
 
-
 #### Site Owner
+
 9. As a site owner, I want the site to be bright and follow the organic thought
 10. As a site owner, I want the site to gather as many contact emails as possible 
 11. As a site owner, I want the site to show customers gallery images of individual fruits and juices which we use for the final prodcuts
 12. As a site owner, I want the site to show our town location because we dont operate a shop front
+
 
 ## Design
 
@@ -111,6 +110,7 @@ On the index.html page there is a grey opacity with the color rgba(0,0,0,0.35) j
 
 
 ### Color
+
 - Dark Green
 - White
 - backgroound shade of rgba(0,0,0,0.35)
@@ -142,7 +142,7 @@ font-family: 'Tinos', serif; */
 
 ### Structure
 
-. Home page (which has a nav bar and logo which is simoly laid out easy to use, a footer with all social links and information on the fruit, what we do and how we do it)
+. Home page (which has a nav bar and logo which is simply laid out easy to use, a footer with all social links and information on the fruit, what we do and how we do it)
 .Products page (which has an arraw of products from fruit boxes to cold pressed juices)
 . Gallery page ( which has an array of images that float out and have the option of a full size image on click to view in a preview window)
 - Contact page ( which has a name, email,phone no, and comments section)
@@ -203,8 +203,8 @@ The site consisist of four pages and ????? features
 
 ### Some of the fruit we use 
 
--
-- User stories covered:
+- A selection of indiviual fruits
+- User stories covered: 4,7, 11
 
 <details><summary>Selection of Fruit</summary>
 <img src="docs/images/selection-of-fruit.png">
@@ -212,9 +212,8 @@ The site consisist of four pages and ????? features
 
 ### What we do 
 
--
--
-- User stories covered:
+- Explanation of the service provided
+- User stories covered: 2 
 
 <details><summary>What We Do</summary>
 <img src="docs/images/what-we-do.png">
@@ -222,9 +221,8 @@ The site consisist of four pages and ????? features
 
 ### How we do it 
 
--
--
-- User stories covered:
+- Simple icon and paragraph with details of the process of ordering and delivery
+- User stories covered: 2,
 
 <details><summary>How We Do</summary>
 <img src="docs/images/how-we-do.png">
@@ -232,8 +230,8 @@ The site consisist of four pages and ????? features
 
 ### Footer
 
-- 
-- User stories covered: 
+- Selection of links for social media 
+- User stories covered: 5, 9 
 
 <details><summary>Footer</summary>
 <img src="docs/footer/footer.png">
@@ -241,8 +239,8 @@ The site consisist of four pages and ????? features
 
 
 ### Products
--
-- User stories covered:
+- Product listing of various example products
+- User stories covered: 4,7,9
 
 <details><summary>Products</summary>
 <img src="docs/images/products-logo.png">
@@ -250,24 +248,24 @@ The site consisist of four pages and ????? features
 
 
 ### Gallery
--
-- User stories covered:
+- Galley of the companies fruit and past products
+- User stories covered: 4,7,9
 
 <details><summary>Gallery</summary>
 <img src="docs/images/gallery-logo.png">
 </details>
 
 ### Contact
--
-- User stories covered:
+- Contact form fully operational
+- User stories covered: 3, 7, 8, 10
 
 <details><summary>contact</summary>
 <img src="docs/images/navbar-logo.png">
 </details>
 
 ### Map 
--
-- User stories covered:
+- Map with town location 
+- User stories covered:  12
 
 <details><summary>Map</summary>
 <img src="docs/images/navbar-logo.png">
