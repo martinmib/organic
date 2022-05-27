@@ -89,7 +89,7 @@ p {
     align-items: center;
     margin: 0 25px;
     font-weight: 800;
-    background: dark green;
+    background: darkgreen;
 
 }
 
@@ -102,7 +102,7 @@ p {
     font-size: 80%;
     letter-spacing: 3px;
     font-weight: 600;
-    background: dark green;
+    background: darkgreen;
 
 }
 
@@ -343,7 +343,7 @@ p {
 
 .footer ul li a {
     text-decoration: none;
-    color: green;
+    color:darkgreen;
     text-transform: uppercase;
     font-size: 250%;
     font-weight: 600;
