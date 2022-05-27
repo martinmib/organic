@@ -196,6 +196,7 @@ The site consisist of four pages and ????? features
 - The navagation bar and logo is placed on all four pages
 - The navbar is responsive
 - Very straight forward menu 
+- User stories covered: 1,9
 
 <details><summary>Navbar-logo</summary>
 <img src="docs/images/navbar-logo.png">
@@ -243,7 +244,7 @@ The site consisist of four pages and ????? features
 - User stories covered: 4,7,9
 
 <details><summary>Products</summary>
-<img src="docs/images/products-logo.png">
+<img src="docs/images/products.png">
 </details>
 
 
@@ -252,7 +253,7 @@ The site consisist of four pages and ????? features
 - User stories covered: 4,7,9
 
 <details><summary>Gallery</summary>
-<img src="docs/images/gallery-logo.png">
+<img src="docs/images/gallery.png">
 </details>
 
 ### Contact
@@ -260,15 +261,15 @@ The site consisist of four pages and ????? features
 - User stories covered: 3, 7, 8, 10
 
 <details><summary>contact</summary>
-<img src="docs/images/navbar-logo.png">
+<img src="docs/images/contact.png">
 </details>
 
 ### Map 
 - Map with town location 
-- User stories covered:  12
+- User stories covered:  6,12
 
 <details><summary>Map</summary>
-<img src="docs/images/navbar-logo.png">
+<img src="docs/images/map.png">
 </details>
 
 ## Validation 
@@ -277,10 +278,10 @@ The site consisist of four pages and ????? features
 The wc3 Markup Validation Service is the online sevice that was used  
 
 <details><summary>Home</summary>
-<img src="docs/images/.png">
+<img src="assets/CSS/media/collegefruit/home-validation.png">
 </details>
 <details><summary>Products</summary>
-<img src="docs/images/.png">
+<img src="">
 </details>
 <details><summary>Gallery</summary>
 <img src="docs/images/.png">
