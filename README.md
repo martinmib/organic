@@ -318,19 +318,38 @@ The WAve WebAim Web accessibility evaluation tool is the online service that was
 
 Updated
 
-
 <details><summary>Home</summary>
-<img src="docs/update-footer-home.png">
+<img src="docs/images/update-home.png">
 </details>
 
 <details><summary>Products</summary>
 <img src="docs/images/products-accessibility.png">
 </details>
+
+Updated 
+
+<details><summary>Products</summary>
+<img src="docs/images/update-products.png">
+</details>
+
 <details><summary>Gallery</summary>
 <img src="docs/images/gallery-accessibility.png">
 </details>
+
+Updated
+
+<details><summary>Gallery</summary>
+<img src="docs/images/update-gallery.png">
+</details>
+
 <details><summary>Contact</summary>
 <img src="docs/images/contact-accessibility.png">
+</details>
+
+Updated
+
+<details><summary>Contact</summary>
+<img src="docs/images/update-contact.png">
 </details>
 
 ### Performance 
