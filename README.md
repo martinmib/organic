@@ -186,13 +186,15 @@ The paragraphs used the font-family: 'Tinos', serif; */ i think it stands out ma
 - developers.google.com
 - Font Awsome 
 - Google Fonts
+- Adobe Photoshop images
+
 
 
 
 
 
 ## Features
-The site consisist of four pages and ????? features 
+The site consisist of four pages and 11 features 
 
 
 
@@ -328,16 +330,16 @@ The WAve WebAim Web accessibility evaluation tool is the online service that was
 Google Lighthouse in Google Chrome dev tools was the online servie that was used 
 
 <details><summary>Home</summary>
-<img src="">
+<img src="docs/images/home-performace.png">
 </details>
 <details><summary>Products</summary>
-<img src="docs/images/.png">
+<img src="docs/images/products-performance.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/images/.png">
+<img src="docs/images/gallery-performance.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/images/.png">
+<img src="docs/images/contact-performance.png">
 </details>
 
 
